@@ -1,7 +1,7 @@
 const valData = (data) => {
   let currMembershipCycle = new Date().getFullYear();
   const month = new Date().getMonth();
-  if (month < 8) {
+  if (month < 6) {
     currMembershipCycle -= 1;
   }
 
