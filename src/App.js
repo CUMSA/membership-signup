@@ -14,6 +14,7 @@ import { ContactDetails } from "./components/pageComponents/ContactDetails";
 import { CollegeAndCourse } from "./components/pageComponents/CollegeAndCourse";
 import { Administrative } from "./components/pageComponents/Administrative";
 import { Filled } from "./components/Filled";
+import { API_URL } from "./consts";
 
 function App() {
   const [formData, setFormData] = useState({
@@ -53,10 +54,9 @@ function App() {
       setIsLoad(true);
 
       axios
-        .post(process.env.REACT_APP_APILINK, data, {
+        .post(`${API_URL}/saveToDb`, data, {
           headers: {
             "Content-Type": "application/json",
-            "X-Api-Key": process.env.REACT_APP_APIKEY,
           },
         })
         .then(() => {
