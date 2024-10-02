@@ -58,7 +58,7 @@ export const formSchema = z.object({
     .min(2000)
     .max(new Date().getFullYear() + 10)
     .transform(d => d.toString()),
-  College: z.enum(colleges as [string, ...string[]]).transform(c => colleges.indexOf(c)),
+  College: z.enum(colleges as [string, ...string[]]).transform(c => colleges.indexOf(c) + 1),
   Course: z.string().min(2).max(100),
   MembershipType: z.enum(['MembershipTypeLife', 'MembershipTypeYear']),
   UKMobile: z.string().min(8).max(15),
