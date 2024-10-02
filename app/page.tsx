@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import Form from "./components/form";
-import Hero from "./components/hero";
+import Form from './components/form'
+import Hero from './components/hero'
 
 export default function Home() {
   return (
@@ -9,5 +9,5 @@ export default function Home() {
       <Hero />
       <Form />
     </>
-  );
+  )
 }

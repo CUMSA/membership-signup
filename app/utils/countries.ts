@@ -8,16 +8,16 @@ export const countries = [
     languages: ['English', 'Swahili'],
     maps: {
       googleMaps: 'https://goo.gl/maps/Ni9M7wcCxf8bJHLX8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192798'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192798',
     },
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ke.png',
-      svg: 'https://flagcdn.com/ke.svg'
+      svg: 'https://flagcdn.com/ke.svg',
     },
     population: 53771300,
     emoji: '🇰🇪',
-    countryCallingCode: '+254'
+    countryCallingCode: '+254',
   },
   {
     name: 'San Marino',
@@ -28,16 +28,16 @@ export const countries = [
     area: 61,
     maps: {
       googleMaps: 'https://goo.gl/maps/rxCVJjm8dVY93RPY8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/54624'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/54624',
     },
     population: 33938,
     postalCode: { format: '4789#', regex: '^(4789\\d)$' },
     flags: {
       png: 'https://flagcdn.com/w320/sm.png',
-      svg: 'https://flagcdn.com/sm.svg'
+      svg: 'https://flagcdn.com/sm.svg',
     },
     emoji: '🇸🇲',
-    countryCallingCode: '+378'
+    countryCallingCode: '+378',
   },
   {
     name: 'French Polynesia',
@@ -48,16 +48,16 @@ export const countries = [
     area: 4167,
     maps: {
       googleMaps: 'https://goo.gl/maps/xgg6BQTRyeQg4e1m6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/3412620'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/3412620',
     },
     population: 280904,
     postalCode: { format: '#####', regex: '^((97|98)7\\d{2})$' },
     flags: {
       png: 'https://flagcdn.com/w320/pf.png',
-      svg: 'https://flagcdn.com/pf.svg'
+      svg: 'https://flagcdn.com/pf.svg',
     },
     emoji: '🇵🇫',
-    countryCallingCode: '+689'
+    countryCallingCode: '+689',
   },
   {
     name: 'Sierra Leone',
@@ -68,15 +68,15 @@ export const countries = [
     area: 71740,
     maps: {
       googleMaps: 'https://goo.gl/maps/jhacar85oq9QaeKB7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192777'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192777',
     },
     population: 7976985,
     flags: {
       png: 'https://flagcdn.com/w320/sl.png',
-      svg: 'https://flagcdn.com/sl.svg'
+      svg: 'https://flagcdn.com/sl.svg',
     },
     emoji: '🇸🇱',
-    countryCallingCode: '+232'
+    countryCallingCode: '+232',
   },
   {
     name: 'Madagascar',
@@ -87,16 +87,16 @@ export const countries = [
     area: 587041,
     maps: {
       googleMaps: 'https://goo.gl/maps/AHQh2ABBaFW6Ngj26',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/447325'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/447325',
     },
     population: 27691019,
     postalCode: { format: '###', regex: '^(\\d{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/mg.png',
-      svg: 'https://flagcdn.com/mg.svg'
+      svg: 'https://flagcdn.com/mg.svg',
     },
     emoji: '🇲🇬',
-    countryCallingCode: '+261'
+    countryCallingCode: '+261',
   },
   {
     name: 'Nigeria',
@@ -107,16 +107,16 @@ export const countries = [
     area: 923768,
     maps: {
       googleMaps: 'https://goo.gl/maps/LTn417qWwBPFszuV9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192787'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192787',
     },
     population: 206139587,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ng.png',
-      svg: 'https://flagcdn.com/ng.svg'
+      svg: 'https://flagcdn.com/ng.svg',
     },
     emoji: '🇳🇬',
-    countryCallingCode: '+234'
+    countryCallingCode: '+234',
   },
   {
     name: 'Jordan',
@@ -127,16 +127,16 @@ export const countries = [
     area: 89342,
     maps: {
       googleMaps: 'https://goo.gl/maps/ko1dzSDKg8Gsi9A98',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/184818'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/184818',
     },
     population: 10203140,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/jo.png',
-      svg: 'https://flagcdn.com/jo.svg'
+      svg: 'https://flagcdn.com/jo.svg',
     },
     emoji: '🇯🇴',
-    countryCallingCode: '+962'
+    countryCallingCode: '+962',
   },
   {
     name: 'Libya',
@@ -147,15 +147,15 @@ export const countries = [
     area: 1759540,
     maps: {
       googleMaps: 'https://goo.gl/maps/eLgGnaQWcJEdYRMy5',
-      openStreetMaps: 'openstreetmap.org/relation/192758'
+      openStreetMaps: 'openstreetmap.org/relation/192758',
     },
     population: 6871287,
     flags: {
       png: 'https://flagcdn.com/w320/ly.png',
-      svg: 'https://flagcdn.com/ly.svg'
+      svg: 'https://flagcdn.com/ly.svg',
     },
     emoji: '🇱🇾',
-    countryCallingCode: '+218'
+    countryCallingCode: '+218',
   },
   {
     name: 'Guyana',
@@ -166,15 +166,15 @@ export const countries = [
     area: 214969,
     maps: {
       googleMaps: 'https://goo.gl/maps/DFsme2xEeugUAsCx5',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/287083'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/287083',
     },
     population: 786559,
     flags: {
       png: 'https://flagcdn.com/w320/gy.png',
-      svg: 'https://flagcdn.com/gy.svg'
+      svg: 'https://flagcdn.com/gy.svg',
     },
     emoji: '🇬🇾',
-    countryCallingCode: '+592'
+    countryCallingCode: '+592',
   },
   {
     name: 'Mexico',
@@ -185,16 +185,16 @@ export const countries = [
     area: 1964375,
     maps: {
       googleMaps: 'https://goo.gl/maps/s5g7imNPMDEePxzbA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/114686'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/114686',
     },
     population: 128932753,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/mx.png',
-      svg: 'https://flagcdn.com/mx.svg'
+      svg: 'https://flagcdn.com/mx.svg',
     },
     emoji: '🇲🇽',
-    countryCallingCode: '+52'
+    countryCallingCode: '+52',
   },
   {
     name: 'Turkmenistan',
@@ -205,16 +205,16 @@ export const countries = [
     area: 488100,
     maps: {
       googleMaps: 'https://goo.gl/maps/cgfUcaQHSWKuqeKk9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/223026'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/223026',
     },
     population: 6031187,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/tm.png',
-      svg: 'https://flagcdn.com/tm.svg'
+      svg: 'https://flagcdn.com/tm.svg',
     },
     emoji: '🇹🇲',
-    countryCallingCode: '+993'
+    countryCallingCode: '+993',
   },
   {
     name: 'Christmas Island',
@@ -225,38 +225,38 @@ export const countries = [
     area: 135,
     maps: {
       googleMaps: 'https://goo.gl/maps/ZC17hHsQZpShN5wk9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/6365444'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/6365444',
     },
     population: 2072,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/cx.png',
-      svg: 'https://flagcdn.com/cx.svg'
+      svg: 'https://flagcdn.com/cx.svg',
     },
     emoji: '🇨🇽',
-    countryCallingCode: '+61'
+    countryCallingCode: '+61',
   },
   {
     name: 'Panama',
     capital: 'Panama City',
     currencies: [
       { name: 'Panamanian balboa', symbol: 'B/.' },
-      { name: 'United States dollar', symbol: '$' }
+      { name: 'United States dollar', symbol: '$' },
     ],
     languages: ['Spanish'],
     coordinates: [9, -80],
     area: 75417,
     maps: {
       googleMaps: 'https://goo.gl/maps/sEN7sKqeawa5oPNLA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/287668'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/287668',
     },
     population: 4314768,
     flags: {
       png: 'https://flagcdn.com/w320/pa.png',
-      svg: 'https://flagcdn.com/pa.svg'
+      svg: 'https://flagcdn.com/pa.svg',
     },
     emoji: '🇵🇦',
-    countryCallingCode: '+507'
+    countryCallingCode: '+507',
   },
   {
     name: 'Vatican City',
@@ -267,15 +267,15 @@ export const countries = [
     area: 0.44,
     maps: {
       googleMaps: 'https://goo.gl/maps/DTKvw5Bd1QZaDZmE8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/36989'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/36989',
     },
     population: 451,
     flags: {
       png: 'https://flagcdn.com/w320/va.png',
-      svg: 'https://flagcdn.com/va.svg'
+      svg: 'https://flagcdn.com/va.svg',
     },
     emoji: '',
-    countryCallingCode: '+379'
+    countryCallingCode: '+379',
   },
   {
     name: 'Seychelles',
@@ -286,15 +286,15 @@ export const countries = [
     area: 452,
     maps: {
       googleMaps: 'https://goo.gl/maps/aqCcy2TKh5TV5MAX8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/536765'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/536765',
     },
     population: 98462,
     flags: {
       png: 'https://flagcdn.com/w320/sc.png',
-      svg: 'https://flagcdn.com/sc.svg'
+      svg: 'https://flagcdn.com/sc.svg',
     },
     emoji: '🇸🇨',
-    countryCallingCode: '+248'
+    countryCallingCode: '+248',
   },
   {
     name: 'Algeria',
@@ -305,16 +305,16 @@ export const countries = [
     area: 2381741,
     maps: {
       googleMaps: 'https://goo.gl/maps/RsAyAfyaiNVb8DpW8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192756'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192756',
     },
     population: 510713,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/dz.png',
-      svg: 'https://flagcdn.com/dz.svg'
+      svg: 'https://flagcdn.com/dz.svg',
     },
     emoji: '🇩🇿',
-    countryCallingCode: '+213'
+    countryCallingCode: '+213',
   },
   {
     name: 'Guam',
@@ -325,16 +325,16 @@ export const countries = [
     area: 549,
     maps: {
       googleMaps: 'https://goo.gl/maps/Xfnq2i279b18cH3C9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/306001'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/306001',
     },
     population: 168783,
     postalCode: { format: '969##', regex: '^(969\\d{2})$' },
     flags: {
       png: 'https://flagcdn.com/w320/gu.png',
-      svg: 'https://flagcdn.com/gu.svg'
+      svg: 'https://flagcdn.com/gu.svg',
     },
     emoji: '🇬🇺',
-    countryCallingCode: '+1 671'
+    countryCallingCode: '+1 671',
   },
   {
     name: 'Sweden',
@@ -345,16 +345,16 @@ export const countries = [
     area: 450295,
     maps: {
       googleMaps: 'https://goo.gl/maps/iqygE491ADVgnBW39',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/52822'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/52822',
     },
     population: 10353442,
     postalCode: { format: 'SE-### ##', regex: '^(?:SE)*(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/se.png',
-      svg: 'https://flagcdn.com/se.svg'
+      svg: 'https://flagcdn.com/se.svg',
     },
     emoji: '🇸🇪',
-    countryCallingCode: '+46'
+    countryCallingCode: '+46',
   },
   {
     name: 'Antarctica',
@@ -363,17 +363,17 @@ export const countries = [
     area: 14000000,
     maps: {
       googleMaps: 'https://goo.gl/maps/kyBuJriu4itiXank7',
-      openStreetMaps: 'https://www.openstreetmap.org/node/36966060'
+      openStreetMaps: 'https://www.openstreetmap.org/node/36966060',
     },
     population: 1000,
     flags: {
       png: 'https://flagcdn.com/w320/aq.png',
-      svg: 'https://flagcdn.com/aq.svg'
+      svg: 'https://flagcdn.com/aq.svg',
     },
     emoji: '🇦🇶',
     countryCallingCode: '+672',
     currencies: [],
-    languages: []
+    languages: [],
   },
   {
     name: 'Switzerland',
@@ -384,16 +384,16 @@ export const countries = [
     area: 41284,
     maps: {
       googleMaps: 'https://goo.gl/maps/uVuZcXaxSx5jLyEC9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/51701'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/51701',
     },
     population: 17500657,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ch.png',
-      svg: 'https://flagcdn.com/ch.svg'
+      svg: 'https://flagcdn.com/ch.svg',
     },
     emoji: '🇨🇭',
-    countryCallingCode: '+41'
+    countryCallingCode: '+41',
   },
   {
     name: 'Ethiopia',
@@ -404,16 +404,16 @@ export const countries = [
     area: 1104300,
     maps: {
       googleMaps: 'https://goo.gl/maps/2Q4hQWCbhuZLj3fG6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192800'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192800',
     },
     population: 114963583,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/et.png',
-      svg: 'https://flagcdn.com/et.svg'
+      svg: 'https://flagcdn.com/et.svg',
     },
     emoji: '🇪🇹',
-    countryCallingCode: '+251'
+    countryCallingCode: '+251',
   },
   {
     name: 'Somalia',
@@ -424,16 +424,16 @@ export const countries = [
     area: 637657,
     maps: {
       googleMaps: 'https://goo.gl/maps/8of8q7D1a8p7R6Fc9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192799'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192799',
     },
     population: 15893219,
     postalCode: { format: '@@  #####', regex: '^([A-Z]{2}\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/so.png',
-      svg: 'https://flagcdn.com/so.svg'
+      svg: 'https://flagcdn.com/so.svg',
     },
     emoji: '🇸🇴',
-    countryCallingCode: '+252'
+    countryCallingCode: '+252',
   },
   {
     name: 'France',
@@ -444,16 +444,16 @@ export const countries = [
     area: 551695,
     maps: {
       googleMaps: 'https://goo.gl/maps/g7QxxSFsWyTPKuzd7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1403916'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1403916',
     },
     population: 67391582,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/fr.png',
-      svg: 'https://flagcdn.com/fr.svg'
+      svg: 'https://flagcdn.com/fr.svg',
     },
     emoji: '🇫🇷',
-    countryCallingCode: '+33'
+    countryCallingCode: '+33',
   },
   {
     name: 'Russia',
@@ -464,17 +464,16 @@ export const countries = [
     area: 17098242,
     maps: {
       googleMaps: 'https://goo.gl/maps/4F4PpDhGJgVvLby57',
-      openStreetMaps:
-        'https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29',
     },
     population: 144104080,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ru.png',
-      svg: 'https://flagcdn.com/ru.svg'
+      svg: 'https://flagcdn.com/ru.svg',
     },
     emoji: '',
-    countryCallingCode: '+7'
+    countryCallingCode: '+7',
   },
   {
     name: 'Western Sahara',
@@ -482,22 +481,22 @@ export const countries = [
     currencies: [
       { name: 'Algerian dinar', symbol: 'دج' },
       { name: 'Moroccan dirham', symbol: 'DH' },
-      { name: 'Mauritanian ouguiya', symbol: 'UM' }
+      { name: 'Mauritanian ouguiya', symbol: 'UM' },
     ],
     languages: ['Berber', 'Hassaniya', 'Spanish'],
     coordinates: [24.5, -13],
     area: 266000,
     maps: {
       googleMaps: 'https://goo.gl/maps/7nU3mB69vP6zQp7A8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/5441968'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/5441968',
     },
     population: 510713,
     flags: {
       png: 'https://flagcdn.com/w320/eh.png',
-      svg: 'https://flagcdn.com/eh.svg'
+      svg: 'https://flagcdn.com/eh.svg',
     },
     emoji: '🇪🇭',
-    countryCallingCode: '+212'
+    countryCallingCode: '+212',
   },
   {
     name: 'Åland Islands',
@@ -508,15 +507,15 @@ export const countries = [
     area: 1580,
     maps: {
       googleMaps: 'https://goo.gl/maps/ewFb3vYsfUmVCoSb8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1650407'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1650407',
     },
     population: 29458,
     flags: {
       png: 'https://flagcdn.com/w320/ax.png',
-      svg: 'https://flagcdn.com/ax.svg'
+      svg: 'https://flagcdn.com/ax.svg',
     },
     emoji: '🇦🇽',
-    countryCallingCode: '+358'
+    countryCallingCode: '+358',
   },
   {
     name: 'Tokelau',
@@ -527,15 +526,15 @@ export const countries = [
     area: 12,
     maps: {
       googleMaps: 'https://goo.gl/maps/Ap5qN8qien6pT9UN6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2186600'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2186600',
     },
     population: 1411,
     flags: {
       png: 'https://flagcdn.com/w320/tk.png',
-      svg: 'https://flagcdn.com/tk.svg'
+      svg: 'https://flagcdn.com/tk.svg',
     },
     emoji: '🇹🇰',
-    countryCallingCode: '+690'
+    countryCallingCode: '+690',
   },
   {
     name: 'Chad',
@@ -546,15 +545,15 @@ export const countries = [
     area: 1284000,
     maps: {
       googleMaps: 'https://goo.gl/maps/ziUdAZ8skuNfx5Hx7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2361304'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2361304',
     },
     population: 16425859,
     flags: {
       png: 'https://flagcdn.com/w320/td.png',
-      svg: 'https://flagcdn.com/td.svg'
+      svg: 'https://flagcdn.com/td.svg',
     },
     emoji: '🇹🇩',
-    countryCallingCode: '+235'
+    countryCallingCode: '+235',
   },
   {
     name: 'Trinidad and Tobago',
@@ -565,15 +564,15 @@ export const countries = [
     area: 5130,
     maps: {
       googleMaps: 'https://goo.gl/maps/NrRfDEWoG8FGZqWY7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/555717'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/555717',
     },
     population: 1399491,
     flags: {
       png: 'https://flagcdn.com/w320/tt.png',
-      svg: 'https://flagcdn.com/tt.svg'
+      svg: 'https://flagcdn.com/tt.svg',
     },
     emoji: '',
-    countryCallingCode: '+1 868'
+    countryCallingCode: '+1 868',
   },
   {
     name: 'Central African Republic',
@@ -584,15 +583,15 @@ export const countries = [
     area: 622984,
     maps: {
       googleMaps: 'https://goo.gl/maps/51V8dsi2rGYC9n3c9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192790'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192790',
     },
     population: 4829764,
     flags: {
       png: 'https://flagcdn.com/w320/cf.png',
-      svg: 'https://flagcdn.com/cf.svg'
+      svg: 'https://flagcdn.com/cf.svg',
     },
     emoji: '🇨🇫',
-    countryCallingCode: '+236'
+    countryCallingCode: '+236',
   },
   {
     name: 'North Macedonia',
@@ -603,16 +602,16 @@ export const countries = [
     area: 25713,
     maps: {
       googleMaps: 'https://goo.gl/maps/55Q8MEnF6ACdu3q79',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/53293'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/53293',
     },
     population: 2077132,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/mk.png',
-      svg: 'https://flagcdn.com/mk.svg'
+      svg: 'https://flagcdn.com/mk.svg',
     },
     emoji: '',
-    countryCallingCode: '+389'
+    countryCallingCode: '+389',
   },
   {
     name: 'El Salvador',
@@ -623,16 +622,16 @@ export const countries = [
     area: 21041,
     maps: {
       googleMaps: 'https://goo.gl/maps/cZnCEi5sEMQtKKcB7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1520612'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1520612',
     },
     population: 6486201,
     postalCode: { format: 'CP ####', regex: '^(?:CP)*(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/sv.png',
-      svg: 'https://flagcdn.com/sv.svg'
+      svg: 'https://flagcdn.com/sv.svg',
     },
     emoji: '🇸🇻',
-    countryCallingCode: '+503'
+    countryCallingCode: '+503',
   },
   {
     name: 'Turks and Caicos Islands',
@@ -643,16 +642,16 @@ export const countries = [
     area: 948,
     maps: {
       googleMaps: 'https://goo.gl/maps/R8VUDQfwZiFtvmyn8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/547479'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/547479',
     },
     population: 38718,
     postalCode: { format: 'TKCA 1ZZ', regex: '^(TKCA 1ZZ)$' },
     flags: {
       png: 'https://flagcdn.com/w320/tc.png',
-      svg: 'https://flagcdn.com/tc.svg'
+      svg: 'https://flagcdn.com/tc.svg',
     },
     emoji: '',
-    countryCallingCode: '+1 649'
+    countryCallingCode: '+1 649',
   },
   {
     name: 'Kosovo',
@@ -663,15 +662,15 @@ export const countries = [
     area: 10908,
     maps: {
       googleMaps: 'https://goo.gl/maps/CSC4Yc8SWPgburuD9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2088990'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2088990',
     },
     population: 1775378,
     flags: {
       png: 'https://flagcdn.com/w320/xk.png',
-      svg: 'https://flagcdn.com/xk.svg'
+      svg: 'https://flagcdn.com/xk.svg',
     },
     emoji: '',
-    countryCallingCode: '+383'
+    countryCallingCode: '+383',
   },
   {
     name: 'Colombia',
@@ -682,15 +681,15 @@ export const countries = [
     area: 1141748,
     maps: {
       googleMaps: 'https://goo.gl/maps/RdwTG8e7gPwS62oR6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/120027'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/120027',
     },
     population: 50882884,
     flags: {
       png: 'https://flagcdn.com/w320/co.png',
-      svg: 'https://flagcdn.com/co.svg'
+      svg: 'https://flagcdn.com/co.svg',
     },
     emoji: '🇨🇴',
-    countryCallingCode: '+57'
+    countryCallingCode: '+57',
   },
   {
     name: 'Palau',
@@ -701,16 +700,16 @@ export const countries = [
     area: 459,
     maps: {
       googleMaps: 'https://goo.gl/maps/MVasQBbUkQP7qQDR9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/571805'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/571805',
     },
     population: 18092,
     postalCode: { format: '96940', regex: '^(96940)$' },
     flags: {
       png: 'https://flagcdn.com/w320/pw.png',
-      svg: 'https://flagcdn.com/pw.svg'
+      svg: 'https://flagcdn.com/pw.svg',
     },
     emoji: '🇵🇼',
-    countryCallingCode: '+680'
+    countryCallingCode: '+680',
   },
   {
     name: 'Iran',
@@ -721,16 +720,16 @@ export const countries = [
     area: 1648195,
     maps: {
       googleMaps: 'https://goo.gl/maps/dMgEGuacBPGYQnjY7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/304938'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/304938',
     },
     population: 83992953,
     postalCode: { format: '##########', regex: '^(\\d{10})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ir.png',
-      svg: 'https://flagcdn.com/ir.svg'
+      svg: 'https://flagcdn.com/ir.svg',
     },
     emoji: '',
-    countryCallingCode: '+98'
+    countryCallingCode: '+98',
   },
   {
     name: 'French Southern and Antarctic Lands',
@@ -741,15 +740,15 @@ export const countries = [
     area: 7747,
     maps: {
       googleMaps: 'https://goo.gl/maps/6ua6CX1m4w1xF2Em7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2186658'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2186658',
     },
     population: 400,
     flags: {
       png: 'https://flagcdn.com/w320/tf.png',
-      svg: 'https://flagcdn.com/tf.svg'
+      svg: 'https://flagcdn.com/tf.svg',
     },
     emoji: '',
-    countryCallingCode: '+33'
+    countryCallingCode: '+33',
   },
   {
     name: 'Bouvet Island',
@@ -759,16 +758,16 @@ export const countries = [
     area: 49,
     maps: {
       googleMaps: 'https://goo.gl/maps/7WRQAEKZb4uK36yi9',
-      openStreetMaps: 'https://www.openstreetmap.org/way/174996681'
+      openStreetMaps: 'https://www.openstreetmap.org/way/174996681',
     },
     population: 0,
     flags: {
       png: 'https://flagcdn.com/w320/bv.png',
-      svg: 'https://flagcdn.com/bv.svg'
+      svg: 'https://flagcdn.com/bv.svg',
     },
     emoji: '🇧🇻',
     countryCallingCode: '',
-    currencies: []
+    currencies: [],
   },
   {
     name: 'British Virgin Islands',
@@ -779,15 +778,15 @@ export const countries = [
     area: 151,
     maps: {
       googleMaps: 'https://goo.gl/maps/49C9cSesNVAR9DQk8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/285454'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/285454',
     },
     population: 30237,
     flags: {
       png: 'https://flagcdn.com/w320/vg.png',
-      svg: 'https://flagcdn.com/vg.svg'
+      svg: 'https://flagcdn.com/vg.svg',
     },
     emoji: '',
-    countryCallingCode: '+1 284'
+    countryCallingCode: '+1 284',
   },
   {
     name: 'United Arab Emirates',
@@ -798,15 +797,15 @@ export const countries = [
     area: 83600,
     maps: {
       googleMaps: 'https://goo.gl/maps/AZZTDA6GzVAnKMVd8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/307763'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/307763',
     },
     population: 9890400,
     flags: {
       png: 'https://flagcdn.com/w320/ae.png',
-      svg: 'https://flagcdn.com/ae.svg'
+      svg: 'https://flagcdn.com/ae.svg',
     },
     emoji: '🇦🇪',
-    countryCallingCode: '+971'
+    countryCallingCode: '+971',
   },
   {
     name: 'South Africa',
@@ -823,22 +822,22 @@ export const countries = [
       'Tsonga',
       'Venda',
       'Xhosa',
-      'Zulu'
+      'Zulu',
     ],
     coordinates: [-29, 24],
     area: 1221037,
     maps: {
       googleMaps: 'https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/87565'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/87565',
     },
     population: 59308690,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/za.png',
-      svg: 'https://flagcdn.com/za.svg'
+      svg: 'https://flagcdn.com/za.svg',
     },
     emoji: '🇿🇦',
-    countryCallingCode: '+27'
+    countryCallingCode: '+27',
   },
   {
     name: 'Czechia',
@@ -849,16 +848,16 @@ export const countries = [
     area: 78865,
     maps: {
       googleMaps: 'https://goo.gl/maps/47dmgeXMZyhDHyQW8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/51684'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/51684',
     },
     population: 10698896,
     postalCode: { format: '### ##', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/cz.png',
-      svg: 'https://flagcdn.com/cz.svg'
+      svg: 'https://flagcdn.com/cz.svg',
     },
     emoji: '',
-    countryCallingCode: '+420'
+    countryCallingCode: '+420',
   },
   {
     name: 'Hungary',
@@ -869,16 +868,16 @@ export const countries = [
     area: 93028,
     maps: {
       googleMaps: 'https://goo.gl/maps/9gfPupm5bffixiFJ6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/21335'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/21335',
     },
     population: 9749763,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/hu.png',
-      svg: 'https://flagcdn.com/hu.svg'
+      svg: 'https://flagcdn.com/hu.svg',
     },
     emoji: '🇭🇺',
-    countryCallingCode: '+36'
+    countryCallingCode: '+36',
   },
   {
     name: 'Peru',
@@ -889,16 +888,16 @@ export const countries = [
     area: 1285216,
     maps: {
       googleMaps: 'https://goo.gl/maps/uDWEUaXNcZTng1fP6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/288247'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/288247',
     },
     population: 32971846,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/pe.png',
-      svg: 'https://flagcdn.com/pe.svg'
+      svg: 'https://flagcdn.com/pe.svg',
     },
     emoji: '🇵🇪',
-    countryCallingCode: '+51'
+    countryCallingCode: '+51',
   },
   {
     name: 'Benin',
@@ -909,15 +908,15 @@ export const countries = [
     area: 112622,
     maps: {
       googleMaps: 'https://goo.gl/maps/uMw1BsHEXQYgVFFu6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192784'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192784',
     },
     population: 12123198,
     flags: {
       png: 'https://flagcdn.com/w320/bj.png',
-      svg: 'https://flagcdn.com/bj.svg'
+      svg: 'https://flagcdn.com/bj.svg',
     },
     emoji: '🇧🇯',
-    countryCallingCode: '+229'
+    countryCallingCode: '+229',
   },
   {
     name: 'South Sudan',
@@ -928,15 +927,15 @@ export const countries = [
     area: 619745,
     maps: {
       googleMaps: 'https://goo.gl/maps/Zm1AYCXb9HSNF1P27',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1656678'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1656678',
     },
     population: 11193729,
     flags: {
       png: 'https://flagcdn.com/w320/ss.png',
-      svg: 'https://flagcdn.com/ss.svg'
+      svg: 'https://flagcdn.com/ss.svg',
     },
     emoji: '🇸🇸',
-    countryCallingCode: '+211'
+    countryCallingCode: '+211',
   },
   {
     name: 'Heard Island and McDonald Islands',
@@ -946,16 +945,16 @@ export const countries = [
     area: 412,
     maps: {
       googleMaps: 'https://goo.gl/maps/k5FBAiVaVyozuYeA7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2177227'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2177227',
     },
     population: 0,
     flags: {
       png: 'https://flagcdn.com/w320/hm.png',
-      svg: 'https://flagcdn.com/hm.svg'
+      svg: 'https://flagcdn.com/hm.svg',
     },
     emoji: '',
     countryCallingCode: '',
-    currencies: []
+    currencies: [],
   },
   {
     name: 'Solomon Islands',
@@ -966,15 +965,15 @@ export const countries = [
     area: 28896,
     maps: {
       googleMaps: 'https://goo.gl/maps/JbPkx86Ywjv8C1n8A',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1857436'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1857436',
     },
     population: 686878,
     flags: {
       png: 'https://flagcdn.com/w320/sb.png',
-      svg: 'https://flagcdn.com/sb.svg'
+      svg: 'https://flagcdn.com/sb.svg',
     },
     emoji: '🇸🇧',
-    countryCallingCode: '+677'
+    countryCallingCode: '+677',
   },
   {
     name: 'Sint Maarten',
@@ -985,15 +984,15 @@ export const countries = [
     area: 34,
     maps: {
       googleMaps: 'https://goo.gl/maps/DjvcESy1a1oGEZuNA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1231790'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1231790',
     },
     population: 40812,
     flags: {
       png: 'https://flagcdn.com/w320/sx.png',
-      svg: 'https://flagcdn.com/sx.svg'
+      svg: 'https://flagcdn.com/sx.svg',
     },
     emoji: '🇸🇽',
-    countryCallingCode: '+1 721'
+    countryCallingCode: '+1 721',
   },
   {
     name: 'Turkey',
@@ -1004,16 +1003,16 @@ export const countries = [
     area: 783562,
     maps: {
       googleMaps: 'https://goo.gl/maps/dXFFraiUDfcB6Quk6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/174737'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/174737',
     },
     population: 84339067,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/tr.png',
-      svg: 'https://flagcdn.com/tr.svg'
+      svg: 'https://flagcdn.com/tr.svg',
     },
     emoji: '🇹🇷',
-    countryCallingCode: '+90'
+    countryCallingCode: '+90',
   },
   {
     name: 'Ireland',
@@ -1024,15 +1023,15 @@ export const countries = [
     area: 70273,
     maps: {
       googleMaps: 'https://goo.gl/maps/hxd1BKxgpchStzQC6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/62273'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/62273',
     },
     population: 4994724,
     flags: {
       png: 'https://flagcdn.com/w320/ie.png',
-      svg: 'https://flagcdn.com/ie.svg'
+      svg: 'https://flagcdn.com/ie.svg',
     },
     emoji: '🇮🇪',
-    countryCallingCode: '+353'
+    countryCallingCode: '+353',
   },
   {
     name: 'Botswana',
@@ -1043,15 +1042,15 @@ export const countries = [
     area: 582000,
     maps: {
       googleMaps: 'https://goo.gl/maps/E364KeLy6N4JwxwQ8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1889339'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1889339',
     },
     population: 2351625,
     flags: {
       png: 'https://flagcdn.com/w320/bw.png',
-      svg: 'https://flagcdn.com/bw.svg'
+      svg: 'https://flagcdn.com/bw.svg',
     },
     emoji: '🇧🇼',
-    countryCallingCode: '+267'
+    countryCallingCode: '+267',
   },
   {
     name: 'Haiti',
@@ -1062,16 +1061,16 @@ export const countries = [
     area: 27750,
     maps: {
       googleMaps: 'https://goo.gl/maps/9o13xtjuUdqFnHbn9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/307829'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/307829',
     },
     population: 11402533,
     postalCode: { format: 'HT####', regex: '^(?:HT)*(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ht.png',
-      svg: 'https://flagcdn.com/ht.svg'
+      svg: 'https://flagcdn.com/ht.svg',
     },
     emoji: '🇭🇹',
-    countryCallingCode: '+509'
+    countryCallingCode: '+509',
   },
   {
     name: 'Japan',
@@ -1082,16 +1081,16 @@ export const countries = [
     area: 377930,
     maps: {
       googleMaps: 'https://goo.gl/maps/NGTLSCSrA8bMrvnX9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/382313'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/382313',
     },
     population: 125836021,
     postalCode: { format: '###-####', regex: '^(\\d{7})$' },
     flags: {
       png: 'https://flagcdn.com/w320/jp.png',
-      svg: 'https://flagcdn.com/jp.svg'
+      svg: 'https://flagcdn.com/jp.svg',
     },
     emoji: '🇯🇵',
-    countryCallingCode: '+81'
+    countryCallingCode: '+81',
   },
   {
     name: 'Norfolk Island',
@@ -1102,15 +1101,15 @@ export const countries = [
     area: 36,
     maps: {
       googleMaps: 'https://goo.gl/maps/pbvtm6XYd1iZbjky5',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2574988'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2574988',
     },
     population: 2302,
     flags: {
       png: 'https://flagcdn.com/w320/nf.png',
-      svg: 'https://flagcdn.com/nf.svg'
+      svg: 'https://flagcdn.com/nf.svg',
     },
     emoji: '🇳🇫',
-    countryCallingCode: '+672'
+    countryCallingCode: '+672',
   },
   {
     name: 'Sudan',
@@ -1121,16 +1120,16 @@ export const countries = [
     area: 1886068,
     maps: {
       googleMaps: 'https://goo.gl/maps/bNW7YUJCaqR8zcXn7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192789'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192789',
     },
     population: 43849269,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/sd.png',
-      svg: 'https://flagcdn.com/sd.svg'
+      svg: 'https://flagcdn.com/sd.svg',
     },
     emoji: '🇸🇩',
-    countryCallingCode: '+249'
+    countryCallingCode: '+249',
   },
   {
     name: 'Uganda',
@@ -1141,15 +1140,15 @@ export const countries = [
     area: 241550,
     maps: {
       googleMaps: 'https://goo.gl/maps/Y7812hFiGa8LD9N68',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192796'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192796',
     },
     population: 45741000,
     flags: {
       png: 'https://flagcdn.com/w320/ug.png',
-      svg: 'https://flagcdn.com/ug.svg'
+      svg: 'https://flagcdn.com/ug.svg',
     },
     emoji: '🇺🇬',
-    countryCallingCode: '+256'
+    countryCallingCode: '+256',
   },
   {
     name: 'Kazakhstan',
@@ -1160,16 +1159,16 @@ export const countries = [
     area: 2724900,
     maps: {
       googleMaps: 'https://goo.gl/maps/8VohJGu7ShuzZYyeA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/214665'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/214665',
     },
     population: 18754440,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/kz.png',
-      svg: 'https://flagcdn.com/kz.svg'
+      svg: 'https://flagcdn.com/kz.svg',
     },
     emoji: '🇰🇿',
-    countryCallingCode: '+7'
+    countryCallingCode: '+7',
   },
   {
     name: 'Northern Mariana Islands',
@@ -1180,15 +1179,15 @@ export const countries = [
     area: 464,
     maps: {
       googleMaps: 'https://goo.gl/maps/cpZ67knoRAcfu1417',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/306004'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/306004',
     },
     population: 57557,
     flags: {
       png: 'https://flagcdn.com/w320/mp.png',
-      svg: 'https://flagcdn.com/mp.svg'
+      svg: 'https://flagcdn.com/mp.svg',
     },
     emoji: '🇲🇵',
-    countryCallingCode: '+1 670'
+    countryCallingCode: '+1 670',
   },
   {
     name: 'Moldova',
@@ -1199,16 +1198,16 @@ export const countries = [
     area: 33846,
     maps: {
       googleMaps: 'https://goo.gl/maps/JjmyUuULujnDeFPf7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/58974'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/58974',
     },
     population: 2617820,
     postalCode: { format: 'MD-####', regex: '^(?:MD)*(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/md.png',
-      svg: 'https://flagcdn.com/md.svg'
+      svg: 'https://flagcdn.com/md.svg',
     },
     emoji: '🇲🇩',
-    countryCallingCode: '+373'
+    countryCallingCode: '+373',
   },
   {
     name: 'Paraguay',
@@ -1219,16 +1218,16 @@ export const countries = [
     area: 406752,
     maps: {
       googleMaps: 'https://goo.gl/maps/JtnqG73WJn1Gx6mz6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/287077'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/287077',
     },
     population: 7132530,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/py.png',
-      svg: 'https://flagcdn.com/py.svg'
+      svg: 'https://flagcdn.com/py.svg',
     },
     emoji: '🇵🇾',
-    countryCallingCode: '+595'
+    countryCallingCode: '+595',
   },
   {
     name: 'Estonia',
@@ -1239,16 +1238,16 @@ export const countries = [
     area: 45227,
     maps: {
       googleMaps: 'https://goo.gl/maps/6SsynwGUodL1sDvq8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/79510'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/79510',
     },
     population: 1331057,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ee.png',
-      svg: 'https://flagcdn.com/ee.svg'
+      svg: 'https://flagcdn.com/ee.svg',
     },
     emoji: '🇪🇪',
-    countryCallingCode: '+372'
+    countryCallingCode: '+372',
   },
   {
     name: 'Greenland',
@@ -1259,16 +1258,16 @@ export const countries = [
     area: 2166086,
     maps: {
       googleMaps: 'https://goo.gl/maps/j3289UPEQXt1ceSy8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2184073'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2184073',
     },
     population: 56367,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/gl.png',
-      svg: 'https://flagcdn.com/gl.svg'
+      svg: 'https://flagcdn.com/gl.svg',
     },
     emoji: '🇬🇱',
-    countryCallingCode: '+299'
+    countryCallingCode: '+299',
   },
   {
     name: 'Palestine',
@@ -1276,22 +1275,22 @@ export const countries = [
     currencies: [
       { name: 'Egyptian pound', symbol: 'E£' },
       { name: 'Israeli new shekel', symbol: '₪' },
-      { name: 'Jordanian dinar', symbol: 'JD' }
+      { name: 'Jordanian dinar', symbol: 'JD' },
     ],
     languages: ['Arabic'],
     coordinates: [31.9, 35.2],
     area: 6220,
     maps: {
       googleMaps: 'https://goo.gl/maps/QvTbkRdmdWEoYAmt5',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1703814'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1703814',
     },
     population: 4803269,
     flags: {
       png: 'https://flagcdn.com/w320/ps.png',
-      svg: 'https://flagcdn.com/ps.svg'
+      svg: 'https://flagcdn.com/ps.svg',
     },
     emoji: '',
-    countryCallingCode: '+970'
+    countryCallingCode: '+970',
   },
   {
     name: 'Finland',
@@ -1302,16 +1301,16 @@ export const countries = [
     area: 338424,
     maps: {
       googleMaps: 'https://goo.gl/maps/HjgWDCNKRAYHrkMn8',
-      openStreetMaps: 'openstreetmap.org/relation/54224'
+      openStreetMaps: 'openstreetmap.org/relation/54224',
     },
     population: 5530719,
     postalCode: { format: '#####', regex: '^(?:FI)*(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/fi.png',
-      svg: 'https://flagcdn.com/fi.svg'
+      svg: 'https://flagcdn.com/fi.svg',
     },
     emoji: '🇫🇮',
-    countryCallingCode: '+358'
+    countryCallingCode: '+358',
   },
   {
     name: 'São Tomé and Príncipe',
@@ -1322,15 +1321,15 @@ export const countries = [
     area: 964,
     maps: {
       googleMaps: 'https://goo.gl/maps/9EUppm13RtPX9oF46',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/535880'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/535880',
     },
     population: 219161,
     flags: {
       png: 'https://flagcdn.com/w320/st.png',
-      svg: 'https://flagcdn.com/st.svg'
+      svg: 'https://flagcdn.com/st.svg',
     },
     emoji: '',
-    countryCallingCode: '+239'
+    countryCallingCode: '+239',
   },
   {
     name: 'Honduras',
@@ -1341,16 +1340,16 @@ export const countries = [
     area: 112492,
     maps: {
       googleMaps: 'https://goo.gl/maps/BbeJK8Sk2VkMHbdF8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/287670'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/287670',
     },
     population: 9904608,
     postalCode: { format: '@@####', regex: '^([A-Z]{2}\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/hn.png',
-      svg: 'https://flagcdn.com/hn.svg'
+      svg: 'https://flagcdn.com/hn.svg',
     },
     emoji: '🇭🇳',
-    countryCallingCode: '+504'
+    countryCallingCode: '+504',
   },
   {
     name: 'Dominican Republic',
@@ -1361,16 +1360,16 @@ export const countries = [
     area: 48671,
     maps: {
       googleMaps: 'https://goo.gl/maps/soxooTHxEeiAbn3UA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/307828'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/307828',
     },
     population: 10847904,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/do.png',
-      svg: 'https://flagcdn.com/do.svg'
+      svg: 'https://flagcdn.com/do.svg',
     },
     emoji: '🇩🇴',
-    countryCallingCode: '+1 809'
+    countryCallingCode: '+1 809',
   },
   {
     name: 'British Indian Ocean Territory',
@@ -1381,15 +1380,15 @@ export const countries = [
     area: 60,
     maps: {
       googleMaps: 'https://goo.gl/maps/bheNucgekVEYozoi6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1993867'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1993867',
     },
     population: 3000,
     flags: {
       png: 'https://flagcdn.com/w320/io.png',
-      svg: 'https://flagcdn.com/io.svg'
+      svg: 'https://flagcdn.com/io.svg',
     },
     emoji: '🇮🇴',
-    countryCallingCode: '+246'
+    countryCallingCode: '+246',
   },
   {
     name: 'Rwanda',
@@ -1400,15 +1399,15 @@ export const countries = [
     area: 26338,
     maps: {
       googleMaps: 'https://goo.gl/maps/j5xb5r7CLqjYbyP86',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/171496'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/171496',
     },
     population: 12952209,
     flags: {
       png: 'https://flagcdn.com/w320/rw.png',
-      svg: 'https://flagcdn.com/rw.svg'
+      svg: 'https://flagcdn.com/rw.svg',
     },
     emoji: '🇷🇼',
-    countryCallingCode: '+250'
+    countryCallingCode: '+250',
   },
   {
     name: 'Comoros',
@@ -1419,15 +1418,15 @@ export const countries = [
     area: 1862,
     maps: {
       googleMaps: 'https://goo.gl/maps/eas4GP28C1GyStnu6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/535790'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/535790',
     },
     population: 869595,
     flags: {
       png: 'https://flagcdn.com/w320/km.png',
-      svg: 'https://flagcdn.com/km.svg'
+      svg: 'https://flagcdn.com/km.svg',
     },
     emoji: '🇰🇲',
-    countryCallingCode: '+269'
+    countryCallingCode: '+269',
   },
   {
     name: 'Oman',
@@ -1438,16 +1437,16 @@ export const countries = [
     area: 309500,
     maps: {
       googleMaps: 'https://goo.gl/maps/L2BoXoAwDDwWecnw5',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/305138'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/305138',
     },
     population: 5106622,
     postalCode: { format: '###', regex: '^(\\d{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/om.png',
-      svg: 'https://flagcdn.com/om.svg'
+      svg: 'https://flagcdn.com/om.svg',
     },
     emoji: '🇴🇲',
-    countryCallingCode: '+968'
+    countryCallingCode: '+968',
   },
   {
     name: 'Portugal',
@@ -1458,16 +1457,16 @@ export const countries = [
     area: 92090,
     maps: {
       googleMaps: 'https://goo.gl/maps/BaTBSyc4GWMmbAKB8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/295480'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/295480',
     },
     population: 10305564,
     postalCode: { format: '####-###', regex: '^(\\d{7})$' },
     flags: {
       png: 'https://flagcdn.com/w320/pt.png',
-      svg: 'https://flagcdn.com/pt.svg'
+      svg: 'https://flagcdn.com/pt.svg',
     },
     emoji: '🇵🇹',
-    countryCallingCode: '+351'
+    countryCallingCode: '+351',
   },
   {
     name: 'American Samoa',
@@ -1478,15 +1477,15 @@ export const countries = [
     area: 199,
     maps: {
       googleMaps: 'https://goo.gl/maps/Re9ePMjwP1sFCBFA6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2177187'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2177187',
     },
     population: 55197,
     flags: {
       png: 'https://flagcdn.com/w320/as.png',
-      svg: 'https://flagcdn.com/as.svg'
+      svg: 'https://flagcdn.com/as.svg',
     },
     emoji: '🇦🇸',
-    countryCallingCode: '+1 684'
+    countryCallingCode: '+1 684',
   },
   {
     name: 'Thailand',
@@ -1497,16 +1496,16 @@ export const countries = [
     area: 513120,
     maps: {
       googleMaps: 'https://goo.gl/maps/qeU6uqsfW4nCCwzw9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2067731'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2067731',
     },
     population: 69799978,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/th.png',
-      svg: 'https://flagcdn.com/th.svg'
+      svg: 'https://flagcdn.com/th.svg',
     },
     emoji: '🇹🇭',
-    countryCallingCode: '+66'
+    countryCallingCode: '+66',
   },
   {
     name: 'Timor-Leste',
@@ -1517,15 +1516,15 @@ export const countries = [
     area: 14874,
     maps: {
       googleMaps: 'https://goo.gl/maps/sFqBC9zjgUXPR1iTA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/305142'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/305142',
     },
     population: 1318442,
     flags: {
       png: 'https://flagcdn.com/w320/tl.png',
-      svg: 'https://flagcdn.com/tl.svg'
+      svg: 'https://flagcdn.com/tl.svg',
     },
     emoji: '',
-    countryCallingCode: '+670'
+    countryCallingCode: '+670',
   },
   {
     name: 'Armenia',
@@ -1536,16 +1535,16 @@ export const countries = [
     area: 29743,
     maps: {
       googleMaps: 'https://goo.gl/maps/azWUtK9bUQYEyccbA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/364066'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/364066',
     },
     population: 2963234,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/am.png',
-      svg: 'https://flagcdn.com/am.svg'
+      svg: 'https://flagcdn.com/am.svg',
     },
     emoji: '🇦🇲',
-    countryCallingCode: '+374'
+    countryCallingCode: '+374',
   },
   {
     name: 'Kuwait',
@@ -1556,16 +1555,16 @@ export const countries = [
     area: 17818,
     maps: {
       googleMaps: 'https://goo.gl/maps/aqr3aNQjS1BAvksJ7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/305099'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/305099',
     },
     population: 4270563,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/kw.png',
-      svg: 'https://flagcdn.com/kw.svg'
+      svg: 'https://flagcdn.com/kw.svg',
     },
     emoji: '🇰🇼',
-    countryCallingCode: '+965'
+    countryCallingCode: '+965',
   },
   {
     name: 'South Georgia',
@@ -1576,15 +1575,15 @@ export const countries = [
     area: 3903,
     maps: {
       googleMaps: 'https://goo.gl/maps/mJzdaBwKBbm2B81q9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1983629'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1983629',
     },
     population: 30,
     flags: {
       png: 'https://flagcdn.com/w320/gs.png',
-      svg: 'https://flagcdn.com/gs.svg'
+      svg: 'https://flagcdn.com/gs.svg',
     },
     emoji: '',
-    countryCallingCode: '+500'
+    countryCallingCode: '+500',
   },
   {
     name: 'Saint Martin',
@@ -1595,16 +1594,16 @@ export const countries = [
     area: 53,
     maps: {
       googleMaps: 'https://goo.gl/maps/P9ho9QuJ9EAR28JEA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/63064'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/63064',
     },
     population: 38659,
     postalCode: { format: '### ###' },
     flags: {
       png: 'https://flagcdn.com/w320/mf.png',
-      svg: 'https://flagcdn.com/mf.svg'
+      svg: 'https://flagcdn.com/mf.svg',
     },
     emoji: '🇲🇫',
-    countryCallingCode: '+590'
+    countryCallingCode: '+590',
   },
   {
     name: 'Georgia',
@@ -1615,16 +1614,16 @@ export const countries = [
     area: 69700,
     maps: {
       googleMaps: 'https://goo.gl/maps/bvCaGBePR1ZEDK5cA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/28699'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/28699',
     },
     population: 3714000,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ge.png',
-      svg: 'https://flagcdn.com/ge.svg'
+      svg: 'https://flagcdn.com/ge.svg',
     },
     emoji: '🇬🇪',
-    countryCallingCode: '+995'
+    countryCallingCode: '+995',
   },
   {
     name: 'Burundi',
@@ -1635,15 +1634,15 @@ export const countries = [
     area: 27834,
     maps: {
       googleMaps: 'https://goo.gl/maps/RXPWoRrB9tfrJpUG7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/195269'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/195269',
     },
     population: 11890781,
     flags: {
       png: 'https://flagcdn.com/w320/bi.png',
-      svg: 'https://flagcdn.com/bi.svg'
+      svg: 'https://flagcdn.com/bi.svg',
     },
     emoji: '🇧🇮',
-    countryCallingCode: '+257'
+    countryCallingCode: '+257',
   },
   {
     name: 'Anguilla',
@@ -1654,61 +1653,61 @@ export const countries = [
     area: 91,
     maps: {
       googleMaps: 'https://goo.gl/maps/3KgLnEyN7amdno2p9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2177161'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2177161',
     },
     population: 13452,
     flags: {
       png: 'https://flagcdn.com/w320/ai.png',
-      svg: 'https://flagcdn.com/ai.svg'
+      svg: 'https://flagcdn.com/ai.svg',
     },
     emoji: '🇦🇮',
-    countryCallingCode: '+1 264'
+    countryCallingCode: '+1 264',
   },
   {
     name: 'Cambodia',
     capital: 'Phnom Penh',
     currencies: [
       { name: 'Cambodian riel', symbol: '៛' },
-      { name: 'United States dollar', symbol: '$' }
+      { name: 'United States dollar', symbol: '$' },
     ],
     languages: ['Khmer'],
     coordinates: [13, 105],
     area: 181035,
     maps: {
       googleMaps: 'https://goo.gl/maps/nztQtFSrUXZymJaW8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/49898'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/49898',
     },
     population: 16718971,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/kh.png',
-      svg: 'https://flagcdn.com/kh.svg'
+      svg: 'https://flagcdn.com/kh.svg',
     },
     emoji: '🇰🇭',
-    countryCallingCode: '+855'
+    countryCallingCode: '+855',
   },
   {
     name: 'Lesotho',
     capital: 'Maseru',
     currencies: [
       { name: 'Lesotho loti', symbol: 'L' },
-      { name: 'South African rand', symbol: 'R' }
+      { name: 'South African rand', symbol: 'R' },
     ],
     languages: ['English', 'Sotho'],
     coordinates: [-29.5, 28.5],
     area: 30355,
     maps: {
       googleMaps: 'https://goo.gl/maps/H8gJi5mL4Cmd1SF28',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2093234'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2093234',
     },
     population: 2142252,
     postalCode: { format: '###', regex: '^(\\d{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ls.png',
-      svg: 'https://flagcdn.com/ls.svg'
+      svg: 'https://flagcdn.com/ls.svg',
     },
     emoji: '🇱🇸',
-    countryCallingCode: '+266'
+    countryCallingCode: '+266',
   },
   {
     name: 'Cayman Islands',
@@ -1719,15 +1718,15 @@ export const countries = [
     area: 264,
     maps: {
       googleMaps: 'https://goo.gl/maps/P3ZVXX3LH63t91hL8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/7269765'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/7269765',
     },
     population: 65720,
     flags: {
       png: 'https://flagcdn.com/w320/ky.png',
-      svg: 'https://flagcdn.com/ky.svg'
+      svg: 'https://flagcdn.com/ky.svg',
     },
     emoji: '🇰🇾',
-    countryCallingCode: '+1 345'
+    countryCallingCode: '+1 345',
   },
   {
     name: 'Vanuatu',
@@ -1738,15 +1737,15 @@ export const countries = [
     area: 12189,
     maps: {
       googleMaps: 'https://goo.gl/maps/hwAjehcT7VfvP5zJ8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2177246'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2177246',
     },
     population: 307150,
     flags: {
       png: 'https://flagcdn.com/w320/vu.png',
-      svg: 'https://flagcdn.com/vu.svg'
+      svg: 'https://flagcdn.com/vu.svg',
     },
     emoji: '🇻🇺',
-    countryCallingCode: '+678'
+    countryCallingCode: '+678',
   },
   {
     name: 'Bolivia',
@@ -1757,15 +1756,15 @@ export const countries = [
     area: 1098581,
     maps: {
       googleMaps: 'https://goo.gl/maps/9DfnyfbxNM2g5U9b9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/252645'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/252645',
     },
     population: 11673029,
     flags: {
       png: 'https://flagcdn.com/w320/bo.png',
-      svg: 'https://flagcdn.com/bo.svg'
+      svg: 'https://flagcdn.com/bo.svg',
     },
     emoji: '',
-    countryCallingCode: '+591'
+    countryCallingCode: '+591',
   },
   {
     name: 'United Kingdom',
@@ -1776,20 +1775,20 @@ export const countries = [
     area: 242900,
     maps: {
       googleMaps: 'https://goo.gl/maps/FoDtc3UKMkFsXAjHA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/62149'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/62149',
     },
     population: 67215293,
     postalCode: {
       format: '@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA',
       regex:
-        '^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$'
+        '^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$',
     },
     flags: {
       png: 'https://flagcdn.com/w320/gb.png',
-      svg: 'https://flagcdn.com/gb.svg'
+      svg: 'https://flagcdn.com/gb.svg',
     },
     emoji: '🇬🇧',
-    countryCallingCode: '+44'
+    countryCallingCode: '+44',
   },
   {
     name: 'Tonga',
@@ -1800,15 +1799,15 @@ export const countries = [
     area: 747,
     maps: {
       googleMaps: 'https://goo.gl/maps/p5YALBY2QdEzswRo7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2186665'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2186665',
     },
     population: 105697,
     flags: {
       png: 'https://flagcdn.com/w320/to.png',
-      svg: 'https://flagcdn.com/to.svg'
+      svg: 'https://flagcdn.com/to.svg',
     },
     emoji: '🇹🇴',
-    countryCallingCode: '+676'
+    countryCallingCode: '+676',
   },
   {
     name: 'Spain',
@@ -1819,16 +1818,16 @@ export const countries = [
     area: 505992,
     maps: {
       googleMaps: 'https://goo.gl/maps/138JaXW8EZzRVitY9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1311341'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1311341',
     },
     population: 47351567,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/es.png',
-      svg: 'https://flagcdn.com/es.svg'
+      svg: 'https://flagcdn.com/es.svg',
     },
     emoji: '🇪🇸',
-    countryCallingCode: '+34'
+    countryCallingCode: '+34',
   },
   {
     name: 'Israel',
@@ -1839,16 +1838,16 @@ export const countries = [
     area: 20770,
     maps: {
       googleMaps: 'https://goo.gl/maps/6UY1AH8XeafVwdC97',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1473946'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1473946',
     },
     population: 9216900,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/il.png',
-      svg: 'https://flagcdn.com/il.svg'
+      svg: 'https://flagcdn.com/il.svg',
     },
     emoji: '🇮🇱',
-    countryCallingCode: '+972'
+    countryCallingCode: '+972',
   },
   {
     name: 'Malaysia',
@@ -1859,16 +1858,16 @@ export const countries = [
     area: 330803,
     maps: {
       googleMaps: 'https://goo.gl/maps/qrY1PNeUXGyXDcPy6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2108121'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2108121',
     },
     population: 32365998,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/my.png',
-      svg: 'https://flagcdn.com/my.svg'
+      svg: 'https://flagcdn.com/my.svg',
     },
     emoji: '🇲🇾',
-    countryCallingCode: '+60'
+    countryCallingCode: '+60',
   },
   {
     name: 'Curaçao',
@@ -1879,15 +1878,15 @@ export const countries = [
     area: 444,
     maps: {
       googleMaps: 'https://goo.gl/maps/9D3hTeA3qKaRT7S16',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1216719'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1216719',
     },
     population: 155014,
     flags: {
       png: 'https://flagcdn.com/w320/cw.png',
-      svg: 'https://flagcdn.com/cw.svg'
+      svg: 'https://flagcdn.com/cw.svg',
     },
     emoji: '',
-    countryCallingCode: '+599'
+    countryCallingCode: '+599',
   },
   {
     name: 'DR Congo',
@@ -1898,38 +1897,38 @@ export const countries = [
     area: 2344858,
     maps: {
       googleMaps: 'https://goo.gl/maps/KfhNVn6VqdZXWu8n9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192795'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192795',
     },
     population: 89561404,
     flags: {
       png: 'https://flagcdn.com/w320/cd.png',
-      svg: 'https://flagcdn.com/cd.svg'
+      svg: 'https://flagcdn.com/cd.svg',
     },
     emoji: '',
-    countryCallingCode: '+243'
+    countryCallingCode: '+243',
   },
   {
     name: 'Cuba',
     capital: 'Havana',
     currencies: [
       { name: 'Cuban convertible peso', symbol: '$' },
-      { name: 'Cuban peso', symbol: '$' }
+      { name: 'Cuban peso', symbol: '$' },
     ],
     languages: ['Spanish'],
     coordinates: [21.5, -80],
     area: 109884,
     maps: {
       googleMaps: 'https://goo.gl/maps/1dDw1QfZspfMUTm99',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/307833'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/307833',
     },
     population: 11326616,
     postalCode: { format: 'CP #####', regex: '^(?:CP)*(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/cu.png',
-      svg: 'https://flagcdn.com/cu.svg'
+      svg: 'https://flagcdn.com/cu.svg',
     },
     emoji: '🇨🇺',
-    countryCallingCode: '+53'
+    countryCallingCode: '+53',
   },
   {
     name: 'Djibouti',
@@ -1940,15 +1939,15 @@ export const countries = [
     area: 23200,
     maps: {
       googleMaps: 'https://goo.gl/maps/V1HWfzN3bS1kwf4C6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192801'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192801',
     },
     population: 988002,
     flags: {
       png: 'https://flagcdn.com/w320/dj.png',
-      svg: 'https://flagcdn.com/dj.svg'
+      svg: 'https://flagcdn.com/dj.svg',
     },
     emoji: '🇩🇯',
-    countryCallingCode: '+253'
+    countryCallingCode: '+253',
   },
   {
     name: 'Chile',
@@ -1959,16 +1958,16 @@ export const countries = [
     area: 756102,
     maps: {
       googleMaps: 'https://goo.gl/maps/XboxyNHh2fAjCPNn9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/167454'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/167454',
     },
     population: 19116209,
     postalCode: { format: '#######', regex: '^(\\d{7})$' },
     flags: {
       png: 'https://flagcdn.com/w320/cl.png',
-      svg: 'https://flagcdn.com/cl.svg'
+      svg: 'https://flagcdn.com/cl.svg',
     },
     emoji: '🇨🇱',
-    countryCallingCode: '+56'
+    countryCallingCode: '+56',
   },
   {
     name: 'Bosnia and Herzegovina',
@@ -1979,16 +1978,16 @@ export const countries = [
     area: 51209,
     maps: {
       googleMaps: 'https://www.google.com/maps/place/Bosnia+and+Herzegovina',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2528142'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2528142',
     },
     population: 3280815,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ba.png',
-      svg: 'https://flagcdn.com/ba.svg'
+      svg: 'https://flagcdn.com/ba.svg',
     },
     emoji: '',
-    countryCallingCode: '+387'
+    countryCallingCode: '+387',
   },
   {
     name: 'Singapore',
@@ -1999,16 +1998,16 @@ export const countries = [
     area: 710,
     maps: {
       googleMaps: 'https://goo.gl/maps/QbQt9Y9b5KFzsahV6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/536780'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/536780',
     },
     population: 5685807,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/sg.png',
-      svg: 'https://flagcdn.com/sg.svg'
+      svg: 'https://flagcdn.com/sg.svg',
     },
     emoji: '🇸🇬',
-    countryCallingCode: '+65'
+    countryCallingCode: '+65',
   },
   {
     name: 'French Guiana',
@@ -2019,16 +2018,16 @@ export const countries = [
     area: 83534,
     maps: {
       googleMaps: 'https://goo.gl/maps/NJawFwMzG7YtCrVP7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2502058'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2502058',
     },
     population: 254541,
     postalCode: { format: '#####', regex: '^((97|98)3\\d{2})$' },
     flags: {
       png: 'https://flagcdn.com/w320/gf.png',
-      svg: 'https://flagcdn.com/gf.svg'
+      svg: 'https://flagcdn.com/gf.svg',
     },
     emoji: '🇬🇫',
-    countryCallingCode: '+594'
+    countryCallingCode: '+594',
   },
   {
     name: 'Suriname',
@@ -2039,38 +2038,38 @@ export const countries = [
     area: 163820,
     maps: {
       googleMaps: 'https://goo.gl/maps/iy7TuQLSi4qgoBoG7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/287082'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/287082',
     },
     population: 586634,
     flags: {
       png: 'https://flagcdn.com/w320/sr.png',
-      svg: 'https://flagcdn.com/sr.svg'
+      svg: 'https://flagcdn.com/sr.svg',
     },
     emoji: '🇸🇷',
-    countryCallingCode: '+597'
+    countryCallingCode: '+597',
   },
   {
     name: 'Eswatini',
     capital: 'Mbabane',
     currencies: [
       { name: 'Swazi lilangeni', symbol: 'L' },
-      { name: 'South African rand', symbol: 'R' }
+      { name: 'South African rand', symbol: 'R' },
     ],
     languages: ['English', 'Swazi'],
     coordinates: [-26.5, 31.5],
     area: 17364,
     maps: {
       googleMaps: 'https://goo.gl/maps/cUY79eqQihFSE8hV6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/88210'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/88210',
     },
     population: 1160164,
     postalCode: { format: '@###', regex: '^([A-Z]\\d{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/sz.png',
-      svg: 'https://flagcdn.com/sz.svg'
+      svg: 'https://flagcdn.com/sz.svg',
     },
     emoji: '',
-    countryCallingCode: '+268'
+    countryCallingCode: '+268',
   },
   {
     name: 'Belgium',
@@ -2081,16 +2080,16 @@ export const countries = [
     area: 30528,
     maps: {
       googleMaps: 'https://goo.gl/maps/UQQzat85TCtPRXAL8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/52411'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/52411',
     },
     population: 11555997,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/be.png',
-      svg: 'https://flagcdn.com/be.svg'
+      svg: 'https://flagcdn.com/be.svg',
     },
     emoji: '🇧🇪',
-    countryCallingCode: '+32'
+    countryCallingCode: '+32',
   },
   {
     name: 'China',
@@ -2101,16 +2100,16 @@ export const countries = [
     area: 9706961,
     maps: {
       googleMaps: 'https://goo.gl/maps/p9qC6vgiFRRXzvGi7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/270056'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/270056',
     },
     population: 1402112000,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/cn.png',
-      svg: 'https://flagcdn.com/cn.svg'
+      svg: 'https://flagcdn.com/cn.svg',
     },
     emoji: '🇨🇳',
-    countryCallingCode: '+86'
+    countryCallingCode: '+86',
   },
   {
     name: 'Saint Vincent and the Grenadines',
@@ -2121,15 +2120,15 @@ export const countries = [
     area: 389,
     maps: {
       googleMaps: 'https://goo.gl/maps/wMbnMqjG37FMnrwf7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/550725'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/550725',
     },
     population: 110947,
     flags: {
       png: 'https://flagcdn.com/w320/vc.png',
-      svg: 'https://flagcdn.com/vc.svg'
+      svg: 'https://flagcdn.com/vc.svg',
     },
     emoji: '',
-    countryCallingCode: '+1 784'
+    countryCallingCode: '+1 784',
   },
   {
     name: 'Nicaragua',
@@ -2140,16 +2139,16 @@ export const countries = [
     area: 130373,
     maps: {
       googleMaps: 'https://goo.gl/maps/P77LaEVkKJKXneRC6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/287666'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/287666',
     },
     population: 6624554,
     postalCode: { format: '###-###-#', regex: '^(\\d{7})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ni.png',
-      svg: 'https://flagcdn.com/ni.svg'
+      svg: 'https://flagcdn.com/ni.svg',
     },
     emoji: '🇳🇮',
-    countryCallingCode: '+505'
+    countryCallingCode: '+505',
   },
   {
     name: 'Canada',
@@ -2160,20 +2159,19 @@ export const countries = [
     area: 9984670,
     maps: {
       googleMaps: 'https://goo.gl/maps/jmEVLugreeqiZXxbA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1428125'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1428125',
     },
     population: 38005238,
     postalCode: {
       format: '@#@ #@#',
-      regex:
-        '^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$ '
+      regex: '^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$ ',
     },
     flags: {
       png: 'https://flagcdn.com/w320/ca.png',
-      svg: 'https://flagcdn.com/ca.svg'
+      svg: 'https://flagcdn.com/ca.svg',
     },
     emoji: '🇨🇦',
-    countryCallingCode: '+1'
+    countryCallingCode: '+1',
   },
   {
     name: 'Togo',
@@ -2184,15 +2182,15 @@ export const countries = [
     area: 56785,
     maps: {
       googleMaps: 'https://goo.gl/maps/jzAa9feXuXPrKVb89',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192782'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192782',
     },
     population: 8278737,
     flags: {
       png: 'https://flagcdn.com/w320/tg.png',
-      svg: 'https://flagcdn.com/tg.svg'
+      svg: 'https://flagcdn.com/tg.svg',
     },
     emoji: '🇹🇬',
-    countryCallingCode: '+228'
+    countryCallingCode: '+228',
   },
   {
     name: 'Ivory Coast',
@@ -2203,15 +2201,15 @@ export const countries = [
     area: 322463,
     maps: {
       googleMaps: 'https://goo.gl/maps/wKsmN7f5qAeNtGjP6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192779'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192779',
     },
     population: 26378275,
     flags: {
       png: 'https://flagcdn.com/w320/ci.png',
-      svg: 'https://flagcdn.com/ci.svg'
+      svg: 'https://flagcdn.com/ci.svg',
     },
     emoji: '',
-    countryCallingCode: '+225'
+    countryCallingCode: '+225',
   },
   {
     name: 'Slovenia',
@@ -2222,16 +2220,16 @@ export const countries = [
     area: 20273,
     maps: {
       googleMaps: 'https://goo.gl/maps/7zgFmswcCJh5L5D49',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/218657'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/218657',
     },
     population: 2100126,
     postalCode: { format: 'SI- ####', regex: '^(?:SI)*(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/si.png',
-      svg: 'https://flagcdn.com/si.svg'
+      svg: 'https://flagcdn.com/si.svg',
     },
     emoji: '🇸🇮',
-    countryCallingCode: '+386'
+    countryCallingCode: '+386',
   },
   {
     name: 'Sri Lanka',
@@ -2242,16 +2240,16 @@ export const countries = [
     area: 65610,
     maps: {
       googleMaps: 'https://goo.gl/maps/VkPHoeFSfgzRQCDv8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/536807'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/536807',
     },
     population: 21919000,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/lk.png',
-      svg: 'https://flagcdn.com/lk.svg'
+      svg: 'https://flagcdn.com/lk.svg',
     },
     emoji: '🇱🇰',
-    countryCallingCode: '+94'
+    countryCallingCode: '+94',
   },
   {
     name: 'Greece',
@@ -2262,16 +2260,16 @@ export const countries = [
     area: 131990,
     maps: {
       googleMaps: 'https://goo.gl/maps/LHGcAvuRyD2iKECC6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192307'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192307',
     },
     population: 10715549,
     postalCode: { format: '### ##', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/gr.png',
-      svg: 'https://flagcdn.com/gr.svg'
+      svg: 'https://flagcdn.com/gr.svg',
     },
     emoji: '🇬🇷',
-    countryCallingCode: '+30'
+    countryCallingCode: '+30',
   },
   {
     name: 'Jamaica',
@@ -2282,15 +2280,15 @@ export const countries = [
     area: 10991,
     maps: {
       googleMaps: 'https://goo.gl/maps/Z8mQ6jxnRQKFwJy9A',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/555017'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/555017',
     },
     population: 2961161,
     flags: {
       png: 'https://flagcdn.com/w320/jm.png',
-      svg: 'https://flagcdn.com/jm.svg'
+      svg: 'https://flagcdn.com/jm.svg',
     },
     emoji: '🇯🇲',
-    countryCallingCode: '+1 876'
+    countryCallingCode: '+1 876',
   },
   {
     name: 'Italy',
@@ -2301,16 +2299,16 @@ export const countries = [
     area: 301336,
     maps: {
       googleMaps: 'https://goo.gl/maps/8M1K27TDj7StTRTq8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/365331'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/365331',
     },
     population: 59554023,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/it.png',
-      svg: 'https://flagcdn.com/it.svg'
+      svg: 'https://flagcdn.com/it.svg',
     },
     emoji: '🇮🇹',
-    countryCallingCode: '+39'
+    countryCallingCode: '+39',
   },
   {
     name: 'Croatia',
@@ -2321,16 +2319,16 @@ export const countries = [
     area: 56594,
     maps: {
       googleMaps: 'https://goo.gl/maps/qSG6xTKUmrYpwmGQ6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/214885'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/214885',
     },
     population: 4047200,
     postalCode: { format: 'HR-#####', regex: '^(?:HR)*(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/hr.png',
-      svg: 'https://flagcdn.com/hr.svg'
+      svg: 'https://flagcdn.com/hr.svg',
     },
     emoji: '🇭🇷',
-    countryCallingCode: '+385'
+    countryCallingCode: '+385',
   },
   {
     name: 'New Caledonia',
@@ -2341,16 +2339,16 @@ export const countries = [
     area: 18575,
     maps: {
       googleMaps: 'https://goo.gl/maps/cBhtCeMdob4U7FRU9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/3407643'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/3407643',
     },
     population: 271960,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/nc.png',
-      svg: 'https://flagcdn.com/nc.svg'
+      svg: 'https://flagcdn.com/nc.svg',
     },
     emoji: '🇳🇨',
-    countryCallingCode: '+687'
+    countryCallingCode: '+687',
   },
   {
     name: 'Pakistan',
@@ -2361,16 +2359,16 @@ export const countries = [
     area: 881912,
     maps: {
       googleMaps: 'https://goo.gl/maps/5LYujdfR5yLUXoERA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/307573'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/307573',
     },
     population: 220892331,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/pk.png',
-      svg: 'https://flagcdn.com/pk.svg'
+      svg: 'https://flagcdn.com/pk.svg',
     },
     emoji: '🇵🇰',
-    countryCallingCode: '+92'
+    countryCallingCode: '+92',
   },
   {
     name: 'Hong Kong',
@@ -2381,15 +2379,15 @@ export const countries = [
     area: 1104,
     maps: {
       googleMaps: 'https://goo.gl/maps/1sEnNmT47ffrC8MU8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/913110'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/913110',
     },
     population: 7500700,
     flags: {
       png: 'https://flagcdn.com/w320/hk.png',
-      svg: 'https://flagcdn.com/hk.svg'
+      svg: 'https://flagcdn.com/hk.svg',
     },
     emoji: '🇭🇰',
-    countryCallingCode: '+852'
+    countryCallingCode: '+852',
   },
   {
     name: 'Latvia',
@@ -2400,16 +2398,16 @@ export const countries = [
     area: 64559,
     maps: {
       googleMaps: 'https://goo.gl/maps/iQpUkH7ghq31ZtXe9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/72594'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/72594',
     },
     population: 1901548,
     postalCode: { format: 'LV-####', regex: '^(?:LV)*(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/lv.png',
-      svg: 'https://flagcdn.com/lv.svg'
+      svg: 'https://flagcdn.com/lv.svg',
     },
     emoji: '🇱🇻',
-    countryCallingCode: '+371'
+    countryCallingCode: '+371',
   },
   {
     name: 'Lebanon',
@@ -2420,19 +2418,19 @@ export const countries = [
     area: 10452,
     maps: {
       googleMaps: 'https://goo.gl/maps/Sz5VCU8UFBqMyTdc9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/184843'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/184843',
     },
     population: 6825442,
     postalCode: {
       format: '#### ####|####',
-      regex: '^(\\d{4}(\\d{4})?)$'
+      regex: '^(\\d{4}(\\d{4})?)$',
     },
     flags: {
       png: 'https://flagcdn.com/w320/lb.png',
-      svg: 'https://flagcdn.com/lb.svg'
+      svg: 'https://flagcdn.com/lb.svg',
     },
     emoji: '🇱🇧',
-    countryCallingCode: '+961'
+    countryCallingCode: '+961',
   },
   {
     name: 'Mauritius',
@@ -2443,15 +2441,15 @@ export const countries = [
     area: 2040,
     maps: {
       googleMaps: 'https://goo.gl/maps/PpKtZ4W3tir5iGrz7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/535828'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/535828',
     },
     population: 1265740,
     flags: {
       png: 'https://flagcdn.com/w320/mu.png',
-      svg: 'https://flagcdn.com/mu.svg'
+      svg: 'https://flagcdn.com/mu.svg',
     },
     emoji: '🇲🇺',
-    countryCallingCode: '+230'
+    countryCallingCode: '+230',
   },
   {
     name: 'Guinea',
@@ -2462,15 +2460,15 @@ export const countries = [
     area: 245857,
     maps: {
       googleMaps: 'https://goo.gl/maps/8J5oM5sA4Ayr1ZYGA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192778'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192778',
     },
     population: 13132792,
     flags: {
       png: 'https://flagcdn.com/w320/gn.png',
-      svg: 'https://flagcdn.com/gn.svg'
+      svg: 'https://flagcdn.com/gn.svg',
     },
     emoji: '🇬🇳',
-    countryCallingCode: '+224'
+    countryCallingCode: '+224',
   },
   {
     name: 'Republic of the Congo',
@@ -2481,15 +2479,15 @@ export const countries = [
     area: 342000,
     maps: {
       googleMaps: 'https://goo.gl/maps/Phf5dDDKdfCtuBTb6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192794'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192794',
     },
     population: 89561404,
     flags: {
       png: 'https://flagcdn.com/w320/cg.png',
-      svg: 'https://flagcdn.com/cg.svg'
+      svg: 'https://flagcdn.com/cg.svg',
     },
     emoji: '',
-    countryCallingCode: '+242'
+    countryCallingCode: '+242',
   },
   {
     name: 'Grenada',
@@ -2500,15 +2498,15 @@ export const countries = [
     area: 344,
     maps: {
       googleMaps: 'https://goo.gl/maps/rqWyfUAt4xhvk1Zy9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/550727'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/550727',
     },
     population: 112519,
     flags: {
       png: 'https://flagcdn.com/w320/gd.png',
-      svg: 'https://flagcdn.com/gd.svg'
+      svg: 'https://flagcdn.com/gd.svg',
     },
     emoji: '🇬🇩',
-    countryCallingCode: '+473'
+    countryCallingCode: '+473',
   },
   {
     name: 'Eritrea',
@@ -2519,15 +2517,15 @@ export const countries = [
     area: 117600,
     maps: {
       googleMaps: 'https://goo.gl/maps/HRyqUpnPwwG6jY5j6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/296961'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/296961',
     },
     population: 5352000,
     flags: {
       png: 'https://flagcdn.com/w320/er.png',
-      svg: 'https://flagcdn.com/er.svg'
+      svg: 'https://flagcdn.com/er.svg',
     },
     emoji: '🇪🇷',
-    countryCallingCode: '+291'
+    countryCallingCode: '+291',
   },
   {
     name: 'Barbados',
@@ -2538,16 +2536,16 @@ export const countries = [
     area: 430,
     maps: {
       googleMaps: 'https://goo.gl/maps/2m36v8STvbGAWd9c7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/547511'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/547511',
     },
     population: 287371,
     postalCode: { format: 'BB#####', regex: '^(?:BB)*(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/bb.png',
-      svg: 'https://flagcdn.com/bb.svg'
+      svg: 'https://flagcdn.com/bb.svg',
     },
     emoji: '🇧🇧',
-    countryCallingCode: '+1 246'
+    countryCallingCode: '+1 246',
   },
   {
     name: 'Tajikistan',
@@ -2558,16 +2556,16 @@ export const countries = [
     area: 143100,
     maps: {
       googleMaps: 'https://goo.gl/maps/8rQgW88jEXijhVb58',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/214626'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/214626',
     },
     population: 9537642,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/tj.png',
-      svg: 'https://flagcdn.com/tj.svg'
+      svg: 'https://flagcdn.com/tj.svg',
     },
     emoji: '🇹🇯',
-    countryCallingCode: '+992'
+    countryCallingCode: '+992',
   },
   {
     name: 'Burkina Faso',
@@ -2578,15 +2576,15 @@ export const countries = [
     area: 272967,
     maps: {
       googleMaps: 'https://goo.gl/maps/rKRmpcMbFher2ozb7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192783'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192783',
     },
     population: 20903278,
     flags: {
       png: 'https://flagcdn.com/w320/bf.png',
-      svg: 'https://flagcdn.com/bf.svg'
+      svg: 'https://flagcdn.com/bf.svg',
     },
     emoji: '🇧🇫',
-    countryCallingCode: '+226'
+    countryCallingCode: '+226',
   },
   {
     name: 'Macau',
@@ -2597,15 +2595,15 @@ export const countries = [
     area: 30,
     maps: {
       googleMaps: 'https://goo.gl/maps/whymRdk3dZFfAAs4A',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1867188'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1867188',
     },
     population: 649342,
     flags: {
       png: 'https://flagcdn.com/w320/mo.png',
-      svg: 'https://flagcdn.com/mo.svg'
+      svg: 'https://flagcdn.com/mo.svg',
     },
     emoji: '',
-    countryCallingCode: '+853'
+    countryCallingCode: '+853',
   },
   {
     name: 'Marshall Islands',
@@ -2616,15 +2614,15 @@ export const countries = [
     area: 181,
     maps: {
       googleMaps: 'https://goo.gl/maps/A4xLi1XvcX88gi3W8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/571771'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/571771',
     },
     population: 59194,
     flags: {
       png: 'https://flagcdn.com/w320/mh.png',
-      svg: 'https://flagcdn.com/mh.svg'
+      svg: 'https://flagcdn.com/mh.svg',
     },
     emoji: '🇲🇭',
-    countryCallingCode: '+692'
+    countryCallingCode: '+692',
   },
   {
     name: 'Belarus',
@@ -2635,16 +2633,16 @@ export const countries = [
     area: 207600,
     maps: {
       googleMaps: 'https://goo.gl/maps/PJUDU3EBPSszCQcu6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/59065'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/59065',
     },
     population: 9398861,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/by.png',
-      svg: 'https://flagcdn.com/by.svg'
+      svg: 'https://flagcdn.com/by.svg',
     },
     emoji: '🇧🇾',
-    countryCallingCode: '+375'
+    countryCallingCode: '+375',
   },
   {
     name: 'Mayotte',
@@ -2655,16 +2653,16 @@ export const countries = [
     area: 374,
     maps: {
       googleMaps: 'https://goo.gl/maps/1e7MXmfBwQv3TQGF7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1259885'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1259885',
     },
     population: 226915,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/yt.png',
-      svg: 'https://flagcdn.com/yt.svg'
+      svg: 'https://flagcdn.com/yt.svg',
     },
     emoji: '🇾🇹',
-    countryCallingCode: '+262'
+    countryCallingCode: '+262',
   },
   {
     name: 'Zambia',
@@ -2675,16 +2673,16 @@ export const countries = [
     area: 752612,
     maps: {
       googleMaps: 'https://goo.gl/maps/mweBcqvW8TppZW6q9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/195271'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/195271',
     },
     population: 18383956,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/zm.png',
-      svg: 'https://flagcdn.com/zm.svg'
+      svg: 'https://flagcdn.com/zm.svg',
     },
     emoji: '🇿🇲',
-    countryCallingCode: '+260'
+    countryCallingCode: '+260',
   },
   {
     name: 'Iceland',
@@ -2695,16 +2693,16 @@ export const countries = [
     area: 103000,
     maps: {
       googleMaps: 'https://goo.gl/maps/WxFWSQuc3oamNxoE6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/299133'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/299133',
     },
     population: 366425,
     postalCode: { format: '###', regex: '^(\\d{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/is.png',
-      svg: 'https://flagcdn.com/is.svg'
+      svg: 'https://flagcdn.com/is.svg',
     },
     emoji: '🇮🇸',
-    countryCallingCode: '+354'
+    countryCallingCode: '+354',
   },
   {
     name: 'Saint Lucia',
@@ -2715,15 +2713,15 @@ export const countries = [
     area: 616,
     maps: {
       googleMaps: 'https://goo.gl/maps/4HhJ2jkPdSL9BPRcA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/550728'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/550728',
     },
     population: 183629,
     flags: {
       png: 'https://flagcdn.com/w320/lc.png',
-      svg: 'https://flagcdn.com/lc.svg'
+      svg: 'https://flagcdn.com/lc.svg',
     },
     emoji: '🇱🇨',
-    countryCallingCode: '+1 758'
+    countryCallingCode: '+1 758',
   },
   {
     name: 'Vietnam',
@@ -2734,16 +2732,16 @@ export const countries = [
     area: 331212,
     maps: {
       googleMaps: 'https://goo.gl/maps/PCpVt9WzdJ9A9nEZ9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/49915'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/49915',
     },
     population: 97338583,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/vn.png',
-      svg: 'https://flagcdn.com/vn.svg'
+      svg: 'https://flagcdn.com/vn.svg',
     },
     emoji: '',
-    countryCallingCode: '+84'
+    countryCallingCode: '+84',
   },
   {
     name: 'Brazil',
@@ -2754,16 +2752,16 @@ export const countries = [
     area: 8515767,
     maps: {
       googleMaps: 'https://goo.gl/maps/waCKk21HeeqFzkNC9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/59470'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/59470',
     },
     population: 212559409,
     postalCode: { format: '#####-###', regex: '^(\\d{8})$' },
     flags: {
       png: 'https://flagcdn.com/w320/br.png',
-      svg: 'https://flagcdn.com/br.svg'
+      svg: 'https://flagcdn.com/br.svg',
     },
     emoji: '🇧🇷',
-    countryCallingCode: '+55'
+    countryCallingCode: '+55',
   },
   {
     name: 'Myanmar',
@@ -2774,16 +2772,16 @@ export const countries = [
     area: 676578,
     maps: {
       googleMaps: 'https://goo.gl/maps/4jrZyJkDERUfHyp26',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/50371'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/50371',
     },
     population: 54409794,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/mm.png',
-      svg: 'https://flagcdn.com/mm.svg'
+      svg: 'https://flagcdn.com/mm.svg',
     },
     emoji: '🇲🇲',
-    countryCallingCode: '+95'
+    countryCallingCode: '+95',
   },
   {
     name: 'Senegal',
@@ -2794,16 +2792,16 @@ export const countries = [
     area: 196722,
     maps: {
       googleMaps: 'https://goo.gl/maps/o5f1uD5nyihCL3HCA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192775'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192775',
     },
     population: 16743930,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/sn.png',
-      svg: 'https://flagcdn.com/sn.svg'
+      svg: 'https://flagcdn.com/sn.svg',
     },
     emoji: '🇸🇳',
-    countryCallingCode: '+221'
+    countryCallingCode: '+221',
   },
   {
     name: 'Slovakia',
@@ -2814,16 +2812,16 @@ export const countries = [
     area: 49037,
     maps: {
       googleMaps: 'https://goo.gl/maps/uNSH2wW4bLoZVYJj7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/14296'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/14296',
     },
     population: 5458827,
     postalCode: { format: '###  ##', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/sk.png',
-      svg: 'https://flagcdn.com/sk.svg'
+      svg: 'https://flagcdn.com/sk.svg',
     },
     emoji: '🇸🇰',
-    countryCallingCode: '+421'
+    countryCallingCode: '+421',
   },
   {
     name: 'Philippines',
@@ -2834,16 +2832,16 @@ export const countries = [
     area: 342353,
     maps: {
       googleMaps: 'https://goo.gl/maps/k8T2fb5VMUfsWFX6A',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/443174'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/443174',
     },
     population: 109581085,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ph.png',
-      svg: 'https://flagcdn.com/ph.svg'
+      svg: 'https://flagcdn.com/ph.svg',
     },
     emoji: '🇵🇭',
-    countryCallingCode: '+63'
+    countryCallingCode: '+63',
   },
   {
     name: 'Albania',
@@ -2854,15 +2852,15 @@ export const countries = [
     area: 28748,
     maps: {
       googleMaps: 'https://goo.gl/maps/BzN9cTuj68ZA8SyZ8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/53292'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/53292',
     },
     population: 2837743,
     flags: {
       png: 'https://flagcdn.com/w320/al.png',
-      svg: 'https://flagcdn.com/al.svg'
+      svg: 'https://flagcdn.com/al.svg',
     },
     emoji: '🇦🇱',
-    countryCallingCode: '+355'
+    countryCallingCode: '+355',
   },
   {
     name: 'Montenegro',
@@ -2873,16 +2871,16 @@ export const countries = [
     area: 13812,
     maps: {
       googleMaps: 'https://goo.gl/maps/4THX1fM7WqANuPbB8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/53296'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/53296',
     },
     population: 621718,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/me.png',
-      svg: 'https://flagcdn.com/me.svg'
+      svg: 'https://flagcdn.com/me.svg',
     },
     emoji: '🇲🇪',
-    countryCallingCode: '+382'
+    countryCallingCode: '+382',
   },
   {
     name: 'Gabon',
@@ -2893,15 +2891,15 @@ export const countries = [
     area: 267668,
     maps: {
       googleMaps: 'https://www.openstreetmap.org/relation/192793',
-      openStreetMaps: 'https://goo.gl/maps/vyRSkqw1H1fnq4ry6'
+      openStreetMaps: 'https://goo.gl/maps/vyRSkqw1H1fnq4ry6',
     },
     population: 2225728,
     flags: {
       png: 'https://flagcdn.com/w320/ga.png',
-      svg: 'https://flagcdn.com/ga.svg'
+      svg: 'https://flagcdn.com/ga.svg',
     },
     emoji: '🇬🇦',
-    countryCallingCode: '+241'
+    countryCallingCode: '+241',
   },
   {
     name: 'Qatar',
@@ -2912,15 +2910,15 @@ export const countries = [
     area: 11586,
     maps: {
       googleMaps: 'https://goo.gl/maps/ZV76Y49z7LLUZ2KQ6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/305095'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/305095',
     },
     population: 2881060,
     flags: {
       png: 'https://flagcdn.com/w320/qa.png',
-      svg: 'https://flagcdn.com/qa.svg'
+      svg: 'https://flagcdn.com/qa.svg',
     },
     emoji: '🇶🇦',
-    countryCallingCode: '+974'
+    countryCallingCode: '+974',
   },
   {
     name: 'Venezuela',
@@ -2931,16 +2929,16 @@ export const countries = [
     area: 916445,
     maps: {
       googleMaps: 'https://goo.gl/maps/KLCwDN8sec7z2kse9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/272644'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/272644',
     },
     population: 28435943,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ve.png',
-      svg: 'https://flagcdn.com/ve.svg'
+      svg: 'https://flagcdn.com/ve.svg',
     },
     emoji: '',
-    countryCallingCode: '+58'
+    countryCallingCode: '+58',
   },
   {
     name: 'Gibraltar',
@@ -2951,15 +2949,15 @@ export const countries = [
     area: 6,
     maps: {
       googleMaps: 'https://goo.gl/maps/CEoHAs1t6byCBhHFA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1278736'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1278736',
     },
     population: 33691,
     flags: {
       png: 'https://flagcdn.com/w320/gi.png',
-      svg: 'https://flagcdn.com/gi.svg'
+      svg: 'https://flagcdn.com/gi.svg',
     },
     emoji: '🇬🇮',
-    countryCallingCode: '+350'
+    countryCallingCode: '+350',
   },
   {
     name: 'Niue',
@@ -2970,15 +2968,15 @@ export const countries = [
     area: 260,
     maps: {
       googleMaps: 'https://goo.gl/maps/xFgdzs3E55Rk1y8P9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1558556'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1558556',
     },
     population: 1470,
     flags: {
       png: 'https://flagcdn.com/w320/nu.png',
-      svg: 'https://flagcdn.com/nu.svg'
+      svg: 'https://flagcdn.com/nu.svg',
     },
     emoji: '🇳🇺',
-    countryCallingCode: '+683'
+    countryCallingCode: '+683',
   },
   {
     name: 'Samoa',
@@ -2989,15 +2987,15 @@ export const countries = [
     area: 2842,
     maps: {
       googleMaps: 'https://goo.gl/maps/CFC9fEFP9cfkYUBF9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1872673'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1872673',
     },
     population: 198410,
     flags: {
       png: 'https://flagcdn.com/w320/ws.png',
-      svg: 'https://flagcdn.com/ws.svg'
+      svg: 'https://flagcdn.com/ws.svg',
     },
     emoji: '🇼🇸',
-    countryCallingCode: '+685'
+    countryCallingCode: '+685',
   },
   {
     name: 'Antigua and Barbuda',
@@ -3008,15 +3006,15 @@ export const countries = [
     area: 442,
     maps: {
       googleMaps: 'https://goo.gl/maps/fnye4wGJ1RzC9jpX9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/536900'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/536900',
     },
     population: 97928,
     flags: {
       png: 'https://flagcdn.com/w320/ag.png',
-      svg: 'https://flagcdn.com/ag.svg'
+      svg: 'https://flagcdn.com/ag.svg',
     },
     emoji: '',
-    countryCallingCode: '+1 268'
+    countryCallingCode: '+1 268',
   },
   {
     name: 'Liberia',
@@ -3027,16 +3025,16 @@ export const countries = [
     area: 111369,
     maps: {
       googleMaps: 'https://goo.gl/maps/4VsHsc2oeGeRL3wg6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192780'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192780',
     },
     population: 5057677,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/lr.png',
-      svg: 'https://flagcdn.com/lr.svg'
+      svg: 'https://flagcdn.com/lr.svg',
     },
     emoji: '🇱🇷',
-    countryCallingCode: '+231'
+    countryCallingCode: '+231',
   },
   {
     name: 'Belize',
@@ -3047,15 +3045,15 @@ export const countries = [
     area: 22966,
     maps: {
       googleMaps: 'https://goo.gl/maps/jdCccpdLodm1uTmo9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/287827'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/287827',
     },
     population: 397621,
     flags: {
       png: 'https://flagcdn.com/w320/bz.png',
-      svg: 'https://flagcdn.com/bz.svg'
+      svg: 'https://flagcdn.com/bz.svg',
     },
     emoji: '🇧🇿',
-    countryCallingCode: '+501'
+    countryCallingCode: '+501',
   },
   {
     name: 'Equatorial Guinea',
@@ -3066,15 +3064,15 @@ export const countries = [
     area: 28051,
     maps: {
       googleMaps: 'https://goo.gl/maps/ucWfFd8aW1FbGMva9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192791'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192791',
     },
     population: 1402985,
     flags: {
       png: 'https://flagcdn.com/w320/gq.png',
-      svg: 'https://flagcdn.com/gq.svg'
+      svg: 'https://flagcdn.com/gq.svg',
     },
     emoji: '🇬🇶',
-    countryCallingCode: '+240'
+    countryCallingCode: '+240',
   },
   {
     name: 'Yemen',
@@ -3085,15 +3083,15 @@ export const countries = [
     area: 527968,
     maps: {
       googleMaps: 'https://goo.gl/maps/WCmE76HKcLideQQw7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/305092'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/305092',
     },
     population: 29825968,
     flags: {
       png: 'https://flagcdn.com/w320/ye.png',
-      svg: 'https://flagcdn.com/ye.svg'
+      svg: 'https://flagcdn.com/ye.svg',
     },
     emoji: '🇾🇪',
-    countryCallingCode: '+967'
+    countryCallingCode: '+967',
   },
   {
     name: 'Tanzania',
@@ -3104,15 +3102,15 @@ export const countries = [
     area: 945087,
     maps: {
       googleMaps: 'https://goo.gl/maps/NWYMqZYXte4zGZ2Q8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/195270'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/195270',
     },
     population: 59734213,
     flags: {
       png: 'https://flagcdn.com/w320/tz.png',
-      svg: 'https://flagcdn.com/tz.svg'
+      svg: 'https://flagcdn.com/tz.svg',
     },
     emoji: '',
-    countryCallingCode: '+255'
+    countryCallingCode: '+255',
   },
   {
     name: 'Australia',
@@ -3123,16 +3121,16 @@ export const countries = [
     area: 7692024,
     maps: {
       googleMaps: 'https://goo.gl/maps/DcjaDa7UbhnZTndH6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/80500'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/80500',
     },
     population: 25687041,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/au.png',
-      svg: 'https://flagcdn.com/au.svg'
+      svg: 'https://flagcdn.com/au.svg',
     },
     emoji: '🇦🇺',
-    countryCallingCode: '+61'
+    countryCallingCode: '+61',
   },
   {
     name: 'Bermuda',
@@ -3143,16 +3141,16 @@ export const countries = [
     area: 54,
     maps: {
       googleMaps: 'https://goo.gl/maps/NLsRGNjTzDghTtAJA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1993208'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1993208',
     },
     population: 63903,
     postalCode: { format: '@@ ##', regex: '^([A-Z]{2}\\d{2})$' },
     flags: {
       png: 'https://flagcdn.com/w320/bm.png',
-      svg: 'https://flagcdn.com/bm.svg'
+      svg: 'https://flagcdn.com/bm.svg',
     },
     emoji: '🇧🇲',
-    countryCallingCode: '+1 441'
+    countryCallingCode: '+1 441',
   },
   {
     name: 'Saint Pierre and Miquelon',
@@ -3163,16 +3161,16 @@ export const countries = [
     area: 242,
     maps: {
       googleMaps: 'https://goo.gl/maps/bUM8Yc8pA8ghyhmt6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/3406826'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/3406826',
     },
     population: 6069,
     postalCode: { format: '#####', regex: '^(97500)$' },
     flags: {
       png: 'https://flagcdn.com/w320/pm.png',
-      svg: 'https://flagcdn.com/pm.svg'
+      svg: 'https://flagcdn.com/pm.svg',
     },
     emoji: '',
-    countryCallingCode: '+508'
+    countryCallingCode: '+508',
   },
   {
     name: 'Mongolia',
@@ -3183,16 +3181,16 @@ export const countries = [
     area: 1564110,
     maps: {
       googleMaps: 'https://goo.gl/maps/A1X7bMCKThBDNjzH6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/161033'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/161033',
     },
     population: 3278292,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/mn.png',
-      svg: 'https://flagcdn.com/mn.svg'
+      svg: 'https://flagcdn.com/mn.svg',
     },
     emoji: '🇲🇳',
-    countryCallingCode: '+976'
+    countryCallingCode: '+976',
   },
   {
     name: 'Malta',
@@ -3203,19 +3201,19 @@ export const countries = [
     area: 316,
     maps: {
       googleMaps: 'https://goo.gl/maps/skXCqguxDxxEKVk47',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/365307'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/365307',
     },
     population: 525285,
     postalCode: {
       format: '@@@ ###|@@@ ##',
-      regex: '^([A-Z]{3}\\d{2}\\d?)$'
+      regex: '^([A-Z]{3}\\d{2}\\d?)$',
     },
     flags: {
       png: 'https://flagcdn.com/w320/mt.png',
-      svg: 'https://flagcdn.com/mt.svg'
+      svg: 'https://flagcdn.com/mt.svg',
     },
     emoji: '🇲🇹',
-    countryCallingCode: '+356'
+    countryCallingCode: '+356',
   },
   {
     name: 'Luxembourg',
@@ -3226,17 +3224,16 @@ export const countries = [
     area: 2586,
     maps: {
       googleMaps: 'https://goo.gl/maps/L6b2AgndgHprt2Ko9',
-      openStreetMaps:
-        'https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335',
     },
     population: 632275,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/lu.png',
-      svg: 'https://flagcdn.com/lu.svg'
+      svg: 'https://flagcdn.com/lu.svg',
     },
     emoji: '🇱🇺',
-    countryCallingCode: '+352'
+    countryCallingCode: '+352',
   },
   {
     name: 'Liechtenstein',
@@ -3247,16 +3244,16 @@ export const countries = [
     area: 160,
     maps: {
       googleMaps: 'https://goo.gl/maps/KNuHeiJzAPodwM7y6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1155955'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1155955',
     },
     population: 38137,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/li.png',
-      svg: 'https://flagcdn.com/li.svg'
+      svg: 'https://flagcdn.com/li.svg',
     },
     emoji: '🇱🇮',
-    countryCallingCode: '+423'
+    countryCallingCode: '+423',
   },
   {
     name: 'Poland',
@@ -3267,39 +3264,39 @@ export const countries = [
     area: 312679,
     maps: {
       googleMaps: 'https://goo.gl/maps/gY9Xw4Sf4415P4949',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/49715'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/49715',
     },
     population: 37950802,
     postalCode: { format: '##-###', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/pl.png',
-      svg: 'https://flagcdn.com/pl.svg'
+      svg: 'https://flagcdn.com/pl.svg',
     },
     emoji: '🇵🇱',
-    countryCallingCode: '+48'
+    countryCallingCode: '+48',
   },
   {
     name: 'Brunei',
     capital: 'Bandar Seri Begawan',
     currencies: [
       { name: 'Brunei dollar', symbol: '$' },
-      { name: 'Singapore dollar', symbol: '$' }
+      { name: 'Singapore dollar', symbol: '$' },
     ],
     languages: ['Malay'],
     coordinates: [4.5, 114.66666666],
     area: 5765,
     maps: {
       googleMaps: 'https://goo.gl/maps/4jb4CqBXhr8vNh579',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2103120'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2103120',
     },
     population: 437483,
     postalCode: { format: '@@####', regex: '^([A-Z]{2}\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/bn.png',
-      svg: 'https://flagcdn.com/bn.svg'
+      svg: 'https://flagcdn.com/bn.svg',
     },
     emoji: '',
-    countryCallingCode: '+673'
+    countryCallingCode: '+673',
   },
   {
     name: 'Nepal',
@@ -3310,16 +3307,16 @@ export const countries = [
     area: 147181,
     maps: {
       googleMaps: 'https://goo.gl/maps/UMj2zpbQp7B5c3yT7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/184633'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/184633',
     },
     population: 29136808,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/np.png',
-      svg: 'https://flagcdn.com/np.svg'
+      svg: 'https://flagcdn.com/np.svg',
     },
     emoji: '🇳🇵',
-    countryCallingCode: '+977'
+    countryCallingCode: '+977',
   },
   {
     name: 'Argentina',
@@ -3330,43 +3327,43 @@ export const countries = [
     area: 2780400,
     maps: {
       googleMaps: 'https://goo.gl/maps/Z9DXNxhf2o93kvyc6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/286393'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/286393',
     },
     population: 45376763,
     postalCode: { format: '@####@@@', regex: '^([A-Z]\\d{4}[A-Z]{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ar.png',
-      svg: 'https://flagcdn.com/ar.svg'
+      svg: 'https://flagcdn.com/ar.svg',
     },
     emoji: '🇦🇷',
-    countryCallingCode: '+54'
+    countryCallingCode: '+54',
   },
   {
     name: 'Guernsey',
     capital: 'St. Peter Port',
     currencies: [
       { name: 'British pound', symbol: '£' },
-      { name: 'Guernsey pound', symbol: '£' }
+      { name: 'Guernsey pound', symbol: '£' },
     ],
     languages: ['English', 'French', 'Guernésiais'],
     coordinates: [49.46666666, -2.58333333],
     area: 78,
     maps: {
       googleMaps: 'https://goo.gl/maps/6kXnQU5QvEZMD9VB7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/270009'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/270009',
     },
     population: 62999,
     postalCode: {
       format: '@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA',
       regex:
-        '^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$'
+        '^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$',
     },
     flags: {
       png: 'https://flagcdn.com/w320/gg.png',
-      svg: 'https://flagcdn.com/gg.svg'
+      svg: 'https://flagcdn.com/gg.svg',
     },
     emoji: '🇬🇬',
-    countryCallingCode: '+44'
+    countryCallingCode: '+44',
   },
   {
     name: 'Maldives',
@@ -3377,16 +3374,16 @@ export const countries = [
     area: 300,
     maps: {
       googleMaps: 'https://goo.gl/maps/MNAWGq9vEdbZ9vUV7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/536773'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/536773',
     },
     population: 540542,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/mv.png',
-      svg: 'https://flagcdn.com/mv.svg'
+      svg: 'https://flagcdn.com/mv.svg',
     },
     emoji: '🇲🇻',
-    countryCallingCode: '+960'
+    countryCallingCode: '+960',
   },
   {
     name: 'Malawi',
@@ -3397,15 +3394,15 @@ export const countries = [
     area: 118484,
     maps: {
       googleMaps: 'https://goo.gl/maps/mc6z83pW9m98X2Ef6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/195290'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/195290',
     },
     population: 19129955,
     flags: {
       png: 'https://flagcdn.com/w320/mw.png',
-      svg: 'https://flagcdn.com/mw.svg'
+      svg: 'https://flagcdn.com/mw.svg',
     },
     emoji: '🇲🇼',
-    countryCallingCode: '+265'
+    countryCallingCode: '+265',
   },
   {
     name: 'Nauru',
@@ -3416,15 +3413,15 @@ export const countries = [
     area: 21,
     maps: {
       googleMaps: 'https://goo.gl/maps/kyAGw6XEJgjSMsTK7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/571804'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/571804',
     },
     population: 10834,
     flags: {
       png: 'https://flagcdn.com/w320/nr.png',
-      svg: 'https://flagcdn.com/nr.svg'
+      svg: 'https://flagcdn.com/nr.svg',
     },
     emoji: '🇳🇷',
-    countryCallingCode: '+674'
+    countryCallingCode: '+674',
   },
   {
     name: 'Syria',
@@ -3435,37 +3432,37 @@ export const countries = [
     area: 185180,
     maps: {
       googleMaps: 'https://goo.gl/maps/Xe3VnFbwdb4nv2SM9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/184840'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/184840',
     },
     population: 17500657,
     flags: {
       png: 'https://flagcdn.com/w320/sy.png',
-      svg: 'https://flagcdn.com/sy.svg'
+      svg: 'https://flagcdn.com/sy.svg',
     },
     emoji: '',
-    countryCallingCode: '+963'
+    countryCallingCode: '+963',
   },
   {
     name: 'Kiribati',
     capital: 'South Tarawa',
     currencies: [
       { name: 'Australian dollar', symbol: '$' },
-      { name: 'Kiribati dollar', symbol: '$' }
+      { name: 'Kiribati dollar', symbol: '$' },
     ],
     languages: ['English', 'Gilbertese'],
     coordinates: [1.41666666, 173],
     area: 811,
     maps: {
       googleMaps: 'https://goo.gl/maps/NBfYvrndW4skAimw9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/571178'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/571178',
     },
     population: 119446,
     flags: {
       png: 'https://flagcdn.com/w320/ki.png',
-      svg: 'https://flagcdn.com/ki.svg'
+      svg: 'https://flagcdn.com/ki.svg',
     },
     emoji: '🇰🇮',
-    countryCallingCode: '+686'
+    countryCallingCode: '+686',
   },
   {
     name: 'Martinique',
@@ -3476,16 +3473,16 @@ export const countries = [
     area: 1128,
     maps: {
       googleMaps: 'https://goo.gl/maps/87ER7sDAFU7JjcvR6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2473088'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2473088',
     },
     population: 378243,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/mq.png',
-      svg: 'https://flagcdn.com/mq.svg'
+      svg: 'https://flagcdn.com/mq.svg',
     },
     emoji: '🇲🇶',
-    countryCallingCode: '+596'
+    countryCallingCode: '+596',
   },
   {
     name: 'Kyrgyzstan',
@@ -3496,16 +3493,16 @@ export const countries = [
     area: 199951,
     maps: {
       googleMaps: 'https://goo.gl/maps/SKG8BSMMQVvxkRkB7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/178009'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/178009',
     },
     population: 6591600,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/kg.png',
-      svg: 'https://flagcdn.com/kg.svg'
+      svg: 'https://flagcdn.com/kg.svg',
     },
     emoji: '🇰🇬',
-    countryCallingCode: '+996'
+    countryCallingCode: '+996',
   },
   {
     name: 'Saint Kitts and Nevis',
@@ -3516,15 +3513,15 @@ export const countries = [
     area: 261,
     maps: {
       googleMaps: 'https://goo.gl/maps/qiaVwcLVTXX3eoTNA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/536899'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/536899',
     },
     population: 53192,
     flags: {
       png: 'https://flagcdn.com/w320/kn.png',
-      svg: 'https://flagcdn.com/kn.svg'
+      svg: 'https://flagcdn.com/kn.svg',
     },
     emoji: '',
-    countryCallingCode: '+1 869'
+    countryCallingCode: '+1 869',
   },
   {
     name: 'Uzbekistan',
@@ -3535,16 +3532,16 @@ export const countries = [
     area: 447400,
     maps: {
       googleMaps: 'https://goo.gl/maps/AJpo6MjMx23qSWCz8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/196240'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/196240',
     },
     population: 34232050,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/uz.png',
-      svg: 'https://flagcdn.com/uz.svg'
+      svg: 'https://flagcdn.com/uz.svg',
     },
     emoji: '🇺🇿',
-    countryCallingCode: '+998'
+    countryCallingCode: '+998',
   },
   {
     name: 'Netherlands',
@@ -3555,16 +3552,16 @@ export const countries = [
     area: 41850,
     maps: {
       googleMaps: 'https://goo.gl/maps/Hv6zQswGhFxoVVBm6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/47796'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/47796',
     },
     population: 16655799,
     postalCode: { format: '#### @@', regex: '^(\\d{4}[A-Z]{2})$' },
     flags: {
       png: 'https://flagcdn.com/w320/nl.png',
-      svg: 'https://flagcdn.com/nl.svg'
+      svg: 'https://flagcdn.com/nl.svg',
     },
     emoji: '🇳🇱',
-    countryCallingCode: '+31'
+    countryCallingCode: '+31',
   },
   {
     name: 'United States Minor Outlying Islands',
@@ -3575,15 +3572,15 @@ export const countries = [
     area: 34.2,
     maps: {
       googleMaps: 'https://goo.gl/maps/hZKnrzgeK69dDyPF8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/6430384'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/6430384',
     },
     population: 300,
     flags: {
       png: 'https://flagcdn.com/w320/um.png',
-      svg: 'https://flagcdn.com/um.svg'
+      svg: 'https://flagcdn.com/um.svg',
     },
     emoji: '🇺🇲',
-    countryCallingCode: '+1'
+    countryCallingCode: '+1',
   },
   {
     name: 'Niger',
@@ -3594,16 +3591,16 @@ export const countries = [
     area: 1267000,
     maps: {
       googleMaps: 'https://goo.gl/maps/VKNU2TLsZcgxM49c8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192786'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192786',
     },
     population: 24206636,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ne.png',
-      svg: 'https://flagcdn.com/ne.svg'
+      svg: 'https://flagcdn.com/ne.svg',
     },
     emoji: '🇳🇪',
-    countryCallingCode: '+227'
+    countryCallingCode: '+227',
   },
   {
     name: 'Bahrain',
@@ -3614,16 +3611,16 @@ export const countries = [
     area: 765,
     maps: {
       googleMaps: 'https://goo.gl/maps/5Zue99Zc6vFBHxzJ7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/378734'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/378734',
     },
     population: 1701583,
     postalCode: { format: '####|###', regex: '^(\\d{3}\\d?)$' },
     flags: {
       png: 'https://flagcdn.com/w320/bh.png',
-      svg: 'https://flagcdn.com/bh.svg'
+      svg: 'https://flagcdn.com/bh.svg',
     },
     emoji: '🇧🇭',
-    countryCallingCode: '+973'
+    countryCallingCode: '+973',
   },
   {
     name: 'Indonesia',
@@ -3634,16 +3631,16 @@ export const countries = [
     area: 1904569,
     maps: {
       googleMaps: 'https://goo.gl/maps/9gfPupm5bffixiFJ6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/21335'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/21335',
     },
     population: 273523621,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/id.png',
-      svg: 'https://flagcdn.com/id.svg'
+      svg: 'https://flagcdn.com/id.svg',
     },
     emoji: '🇮🇩',
-    countryCallingCode: '+62'
+    countryCallingCode: '+62',
   },
   {
     name: 'Guadeloupe',
@@ -3654,16 +3651,16 @@ export const countries = [
     area: 1628,
     maps: {
       googleMaps: 'https://goo.gl/maps/Dy9R2EufJtoWm8UN9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/7109289'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/7109289',
     },
     population: 400132,
     postalCode: { format: '#####', regex: '^((97|98)\\d{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/gp.png',
-      svg: 'https://flagcdn.com/gp.svg'
+      svg: 'https://flagcdn.com/gp.svg',
     },
     emoji: '🇬🇵',
-    countryCallingCode: '+590'
+    countryCallingCode: '+590',
   },
   {
     name: 'Réunion',
@@ -3674,16 +3671,16 @@ export const countries = [
     area: 2511,
     maps: {
       googleMaps: 'https://goo.gl/maps/wWpBrXsp8UHVbah29',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1785276'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1785276',
     },
     population: 840974,
     postalCode: { format: '#####', regex: '^((97|98)(4|7|8)\\d{2})$' },
     flags: {
       png: 'https://flagcdn.com/w320/re.png',
-      svg: 'https://flagcdn.com/re.svg'
+      svg: 'https://flagcdn.com/re.svg',
     },
     emoji: '',
-    countryCallingCode: '+262'
+    countryCallingCode: '+262',
   },
   {
     name: 'Pitcairn Islands',
@@ -3694,15 +3691,15 @@ export const countries = [
     area: 47,
     maps: {
       googleMaps: 'https://goo.gl/maps/XGJMnMAigXjXcxSa7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2185375'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2185375',
     },
     population: 56,
     flags: {
       png: 'https://flagcdn.com/w320/pn.png',
-      svg: 'https://flagcdn.com/pn.svg'
+      svg: 'https://flagcdn.com/pn.svg',
     },
     emoji: '',
-    countryCallingCode: '+64'
+    countryCallingCode: '+64',
   },
   {
     name: 'Aruba',
@@ -3713,15 +3710,15 @@ export const countries = [
     area: 180,
     maps: {
       googleMaps: 'https://goo.gl/maps/8hopbQqifHAgyZyg8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1231749'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1231749',
     },
     population: 106766,
     flags: {
       png: 'https://flagcdn.com/w320/aw.png',
-      svg: 'https://flagcdn.com/aw.svg'
+      svg: 'https://flagcdn.com/aw.svg',
     },
     emoji: '🇦🇼',
-    countryCallingCode: '+297'
+    countryCallingCode: '+297',
   },
   {
     name: 'Bangladesh',
@@ -3732,16 +3729,16 @@ export const countries = [
     area: 147570,
     maps: {
       googleMaps: 'https://goo.gl/maps/op6gmLbHcvv6rLhH6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/184640'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/184640',
     },
     population: 164689383,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/bd.png',
-      svg: 'https://flagcdn.com/bd.svg'
+      svg: 'https://flagcdn.com/bd.svg',
     },
     emoji: '🇧🇩',
-    countryCallingCode: '+880'
+    countryCallingCode: '+880',
   },
   {
     name: 'Guatemala',
@@ -3752,38 +3749,38 @@ export const countries = [
     area: 108889,
     maps: {
       googleMaps: 'https://goo.gl/maps/JoRAbem4Hxb9FYbVA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1521463'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1521463',
     },
     population: 16858333,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/gt.png',
-      svg: 'https://flagcdn.com/gt.svg'
+      svg: 'https://flagcdn.com/gt.svg',
     },
     emoji: '🇬🇹',
-    countryCallingCode: '+502'
+    countryCallingCode: '+502',
   },
   {
     name: 'Bahamas',
     capital: 'Nassau',
     currencies: [
       { name: 'Bahamian dollar', symbol: '$' },
-      { name: 'United States dollar', symbol: '$' }
+      { name: 'United States dollar', symbol: '$' },
     ],
     languages: ['English'],
     coordinates: [24.25, -76],
     area: 13943,
     maps: {
       googleMaps: 'https://goo.gl/maps/1YzRs1BZrG8p8pmVA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/547469'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/547469',
     },
     population: 393248,
     flags: {
       png: 'https://flagcdn.com/w320/bs.png',
-      svg: 'https://flagcdn.com/bs.svg'
+      svg: 'https://flagcdn.com/bs.svg',
     },
     emoji: '🇧🇸',
-    countryCallingCode: '+1 242'
+    countryCallingCode: '+1 242',
   },
   {
     name: 'Uruguay',
@@ -3794,16 +3791,16 @@ export const countries = [
     area: 181034,
     maps: {
       googleMaps: 'https://goo.gl/maps/tiQ9Baekb1jQtDSD9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/287072'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/287072',
     },
     population: 3473727,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/uy.png',
-      svg: 'https://flagcdn.com/uy.svg'
+      svg: 'https://flagcdn.com/uy.svg',
     },
     emoji: '🇺🇾',
-    countryCallingCode: '+598'
+    countryCallingCode: '+598',
   },
   {
     name: 'Morocco',
@@ -3814,16 +3811,16 @@ export const countries = [
     area: 446550,
     maps: {
       googleMaps: 'https://goo.gl/maps/6oMv3dyBZg3iaXQ5A',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/3630439'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/3630439',
     },
     population: 36910558,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ma.png',
-      svg: 'https://flagcdn.com/ma.svg'
+      svg: 'https://flagcdn.com/ma.svg',
     },
     emoji: '🇲🇦',
-    countryCallingCode: '+212'
+    countryCallingCode: '+212',
   },
   {
     name: 'Germany',
@@ -3834,40 +3831,39 @@ export const countries = [
     area: 357114,
     maps: {
       googleMaps: 'https://goo.gl/maps/mD9FBMq1nvXUBrkv6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/51477'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/51477',
     },
     population: 83240525,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/de.png',
-      svg: 'https://flagcdn.com/de.svg'
+      svg: 'https://flagcdn.com/de.svg',
     },
     emoji: '🇩🇪',
-    countryCallingCode: '+49'
+    countryCallingCode: '+49',
   },
   {
     name: 'Saint Helena, Ascension and Tristan da Cunha',
     capital: 'Jamestown',
     currencies: [
       { name: 'Pound sterling', symbol: '£' },
-      { name: 'Saint Helena pound', symbol: '£' }
+      { name: 'Saint Helena pound', symbol: '£' },
     ],
     languages: ['English'],
     coordinates: [-15.95, -5.72],
     area: 394,
     maps: {
       googleMaps: 'https://goo.gl/maps/iv4VxnPzHkjLCJuc6',
-      openStreetMaps:
-        'https://www.openstreetmap.org/relation/4868269#map=13/-15.9657/-5.7120'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/4868269#map=13/-15.9657/-5.7120',
     },
     population: 53192,
     postalCode: { format: 'STHL 1ZZ', regex: '^(STHL1ZZ)$' },
     flags: {
       png: 'https://flagcdn.com/w320/sh.png',
-      svg: 'https://flagcdn.com/sh.svg'
+      svg: 'https://flagcdn.com/sh.svg',
     },
     emoji: '',
-    countryCallingCode: '+290'
+    countryCallingCode: '+290',
   },
   {
     name: 'Montserrat',
@@ -3878,15 +3874,15 @@ export const countries = [
     area: 102,
     maps: {
       googleMaps: 'https://goo.gl/maps/CSbe7UmxPmiwQB7GA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/537257'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/537257',
     },
     population: 4922,
     flags: {
       png: 'https://flagcdn.com/w320/ms.png',
-      svg: 'https://flagcdn.com/ms.svg'
+      svg: 'https://flagcdn.com/ms.svg',
     },
     emoji: '🇲🇸',
-    countryCallingCode: '+1 664'
+    countryCallingCode: '+1 664',
   },
   {
     name: 'United States',
@@ -3897,17 +3893,16 @@ export const countries = [
     area: 9372610,
     maps: {
       googleMaps: 'https://goo.gl/maps/e8M246zY4BSjkjAv6',
-      openStreetMaps:
-        'https://www.openstreetmap.org/relation/148838#map=2/20.6/-85.8'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/148838#map=2/20.6/-85.8',
     },
     population: 329484123,
     postalCode: { format: '#####-####', regex: '^\\d{5}(-\\d{4})?$' },
     flags: {
       png: 'https://flagcdn.com/w320/us.png',
-      svg: 'https://flagcdn.com/us.svg'
+      svg: 'https://flagcdn.com/us.svg',
     },
     emoji: '🇺🇸',
-    countryCallingCode: '+1'
+    countryCallingCode: '+1',
   },
   {
     name: 'Falkland Islands',
@@ -3918,15 +3913,15 @@ export const countries = [
     area: 12173,
     maps: {
       googleMaps: 'https://goo.gl/maps/TZH1x7AGanQKifNk7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2185374'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2185374',
     },
     population: 2563,
     flags: {
       png: 'https://flagcdn.com/w320/fk.png',
-      svg: 'https://flagcdn.com/fk.svg'
+      svg: 'https://flagcdn.com/fk.svg',
     },
     emoji: '🇫🇰',
-    countryCallingCode: '+500'
+    countryCallingCode: '+500',
   },
   {
     name: 'Bulgaria',
@@ -3937,16 +3932,16 @@ export const countries = [
     area: 110879,
     maps: {
       googleMaps: 'https://goo.gl/maps/F5uAhDGWzc3BrHfm9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/186382'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/186382',
     },
     population: 6927288,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/bg.png',
-      svg: 'https://flagcdn.com/bg.svg'
+      svg: 'https://flagcdn.com/bg.svg',
     },
     emoji: '🇧🇬',
-    countryCallingCode: '+359'
+    countryCallingCode: '+359',
   },
   {
     name: 'Papua New Guinea',
@@ -3957,16 +3952,16 @@ export const countries = [
     area: 462840,
     maps: {
       googleMaps: 'https://goo.gl/maps/ChGmzZBjZ3vnBwR2A',
-      openStreetMaps: 'https://goo.gl/maps/ChGmzZBjZ3vnBwR2A'
+      openStreetMaps: 'https://goo.gl/maps/ChGmzZBjZ3vnBwR2A',
     },
     population: 8947027,
     postalCode: { format: '###', regex: '^(\\d{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/pg.png',
-      svg: 'https://flagcdn.com/pg.svg'
+      svg: 'https://flagcdn.com/pg.svg',
     },
     emoji: '🇵🇬',
-    countryCallingCode: '+675'
+    countryCallingCode: '+675',
   },
   {
     name: 'Costa Rica',
@@ -3977,16 +3972,16 @@ export const countries = [
     area: 51100,
     maps: {
       googleMaps: 'https://goo.gl/maps/RFiwytjvNrpfKN7k6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/287667'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/287667',
     },
     population: 5094114,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/cr.png',
-      svg: 'https://flagcdn.com/cr.svg'
+      svg: 'https://flagcdn.com/cr.svg',
     },
     emoji: '🇨🇷',
-    countryCallingCode: '+506'
+    countryCallingCode: '+506',
   },
   {
     name: 'Ecuador',
@@ -3997,16 +3992,16 @@ export const countries = [
     area: 276841,
     maps: {
       googleMaps: 'https://goo.gl/maps/TbX8hUW4gcbRPZiK7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/108089'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/108089',
     },
     population: 17643060,
     postalCode: { format: '@####@', regex: '^([a-zA-Z]\\d{4}[a-zA-Z])$' },
     flags: {
       png: 'https://flagcdn.com/w320/ec.png',
-      svg: 'https://flagcdn.com/ec.svg'
+      svg: 'https://flagcdn.com/ec.svg',
     },
     emoji: '🇪🇨',
-    countryCallingCode: '+593'
+    countryCallingCode: '+593',
   },
   {
     name: 'Svalbard and Jan Mayen',
@@ -4017,15 +4012,15 @@ export const countries = [
     area: -1,
     maps: {
       googleMaps: 'https://goo.gl/maps/L2wyyn3cQ16PzQ5J8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1337397'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1337397',
     },
     population: 2562,
     flags: {
       png: 'https://flagcdn.com/w320/sj.png',
-      svg: 'https://flagcdn.com/sj.svg'
+      svg: 'https://flagcdn.com/sj.svg',
     },
     emoji: '',
-    countryCallingCode: '+47'
+    countryCallingCode: '+47',
   },
   {
     name: 'Fiji',
@@ -4036,15 +4031,15 @@ export const countries = [
     area: 18272,
     maps: {
       googleMaps: 'https://goo.gl/maps/r9fhDqoLZdg1zmE99',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/571747'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/571747',
     },
     population: 896444,
     flags: {
       png: 'https://flagcdn.com/w320/fj.png',
-      svg: 'https://flagcdn.com/fj.svg'
+      svg: 'https://flagcdn.com/fj.svg',
     },
     emoji: '🇫🇯',
-    countryCallingCode: '+679'
+    countryCallingCode: '+679',
   },
   {
     name: 'South Korea',
@@ -4055,19 +4050,19 @@ export const countries = [
     area: 100210,
     maps: {
       googleMaps: 'https://goo.gl/maps/7ecjaJXefjAQhxjGA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/307756'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/307756',
     },
     population: 51780579,
     postalCode: {
       format: 'SEOUL ###-###',
-      regex: '^(?:SEOUL)*(\\d{6})$'
+      regex: '^(?:SEOUL)*(\\d{6})$',
     },
     flags: {
       png: 'https://flagcdn.com/w320/kr.png',
-      svg: 'https://flagcdn.com/kr.svg'
+      svg: 'https://flagcdn.com/kr.svg',
     },
     emoji: '',
-    countryCallingCode: '+82'
+    countryCallingCode: '+82',
   },
   {
     name: 'Puerto Rico',
@@ -4078,16 +4073,16 @@ export const countries = [
     area: 8870,
     maps: {
       googleMaps: 'https://goo.gl/maps/sygfDbtwn389wu8x5',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/4422604'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/4422604',
     },
     population: 3194034,
     postalCode: { format: '#####-####', regex: '^(\\d{9})$' },
     flags: {
       png: 'https://flagcdn.com/w320/pr.png',
-      svg: 'https://flagcdn.com/pr.svg'
+      svg: 'https://flagcdn.com/pr.svg',
     },
     emoji: '🇵🇷',
-    countryCallingCode: '+1 787'
+    countryCallingCode: '+1 787',
   },
   {
     name: 'Wallis and Futuna',
@@ -4098,16 +4093,16 @@ export const countries = [
     area: 142,
     maps: {
       googleMaps: 'https://goo.gl/maps/CzVqK74QYtbHv65r5',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/3412448'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/3412448',
     },
     population: 11750,
     postalCode: { format: '#####', regex: '^(986\\d{2})$' },
     flags: {
       png: 'https://flagcdn.com/w320/wf.png',
-      svg: 'https://flagcdn.com/wf.svg'
+      svg: 'https://flagcdn.com/wf.svg',
     },
     emoji: '',
-    countryCallingCode: '+681'
+    countryCallingCode: '+681',
   },
   {
     name: 'North Korea',
@@ -4118,16 +4113,16 @@ export const countries = [
     area: 120538,
     maps: {
       googleMaps: 'https://goo.gl/maps/9q5T2DMeH5JL7Tky6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192734'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192734',
     },
     population: 25778815,
     postalCode: { format: '###-###', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/kp.png',
-      svg: 'https://flagcdn.com/kp.svg'
+      svg: 'https://flagcdn.com/kp.svg',
     },
     emoji: '',
-    countryCallingCode: '+850'
+    countryCallingCode: '+850',
   },
   {
     name: 'Taiwan',
@@ -4138,43 +4133,43 @@ export const countries = [
     area: 36193,
     maps: {
       googleMaps: 'https://goo.gl/maps/HgMKFQjNadF3Wa6B6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/449220'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/449220',
     },
     population: 23503349,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/tw.png',
-      svg: 'https://flagcdn.com/tw.svg'
+      svg: 'https://flagcdn.com/tw.svg',
     },
     emoji: '🇹🇼',
-    countryCallingCode: '+886'
+    countryCallingCode: '+886',
   },
   {
     name: 'Isle of Man',
     capital: 'Douglas',
     currencies: [
       { name: 'British pound', symbol: '£' },
-      { name: 'Manx pound', symbol: '£' }
+      { name: 'Manx pound', symbol: '£' },
     ],
     languages: ['English', 'Manx'],
     coordinates: [54.25, -4.5],
     area: 572,
     maps: {
       googleMaps: 'https://goo.gl/maps/4DqVHDgVaFgnh8ZV8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/62269'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/62269',
     },
     population: 85032,
     postalCode: {
       format: '@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA',
       regex:
-        '^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$'
+        '^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$',
     },
     flags: {
       png: 'https://flagcdn.com/w320/im.png',
-      svg: 'https://flagcdn.com/im.svg'
+      svg: 'https://flagcdn.com/im.svg',
     },
     emoji: '',
-    countryCallingCode: '+44 1624'
+    countryCallingCode: '+44 1624',
   },
   {
     name: 'United States Virgin Islands',
@@ -4185,15 +4180,15 @@ export const countries = [
     area: 347,
     maps: {
       googleMaps: 'https://goo.gl/maps/mBfreywj8dor6q4m9',
-      openStreetMaps: 'openstreetmap.org/relation/286898'
+      openStreetMaps: 'openstreetmap.org/relation/286898',
     },
     population: 106290,
     flags: {
       png: 'https://flagcdn.com/w320/vi.png',
-      svg: 'https://flagcdn.com/vi.svg'
+      svg: 'https://flagcdn.com/vi.svg',
     },
     emoji: '',
-    countryCallingCode: '+1 340'
+    countryCallingCode: '+1 340',
   },
   {
     name: 'Lithuania',
@@ -4204,16 +4199,16 @@ export const countries = [
     area: 65300,
     maps: {
       googleMaps: 'https://goo.gl/maps/dd1s9rrLjrK2G8yY6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/72596'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/72596',
     },
     population: 2794700,
     postalCode: { format: 'LT-#####', regex: '^(?:LT)*(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/lt.png',
-      svg: 'https://flagcdn.com/lt.svg'
+      svg: 'https://flagcdn.com/lt.svg',
     },
     emoji: '🇱🇹',
-    countryCallingCode: '+370'
+    countryCallingCode: '+370',
   },
   {
     name: 'Angola',
@@ -4224,15 +4219,15 @@ export const countries = [
     area: 1246700,
     maps: {
       googleMaps: 'https://goo.gl/maps/q42Qbf1BmQL3fuZg9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/195267'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/195267',
     },
     population: 32866268,
     flags: {
       png: 'https://flagcdn.com/w320/ao.png',
-      svg: 'https://flagcdn.com/ao.svg'
+      svg: 'https://flagcdn.com/ao.svg',
     },
     emoji: '🇦🇴',
-    countryCallingCode: '+244'
+    countryCallingCode: '+244',
   },
   {
     name: 'Tunisia',
@@ -4243,39 +4238,39 @@ export const countries = [
     area: 163610,
     maps: {
       googleMaps: 'https://goo.gl/maps/KgUmpZdUuNRaougs8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192757'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192757',
     },
     population: 11818618,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/tn.png',
-      svg: 'https://flagcdn.com/tn.svg'
+      svg: 'https://flagcdn.com/tn.svg',
     },
     emoji: '🇹🇳',
-    countryCallingCode: '+216'
+    countryCallingCode: '+216',
   },
   {
     name: 'Faroe Islands',
     capital: 'Tórshavn',
     currencies: [
       { name: 'Danish krone', symbol: 'kr' },
-      { name: 'Faroese króna', symbol: 'kr' }
+      { name: 'Faroese króna', symbol: 'kr' },
     ],
     languages: ['Danish', 'Faroese'],
     coordinates: [62, -7],
     area: 1393,
     maps: {
       googleMaps: 'https://goo.gl/maps/6sTru4SmHdEVcNkM6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/52939'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/52939',
     },
     population: 48865,
     postalCode: { format: 'FO-###', regex: '^(?:FO)*(\\d{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/fo.png',
-      svg: 'https://flagcdn.com/fo.svg'
+      svg: 'https://flagcdn.com/fo.svg',
     },
     emoji: '🇫🇴',
-    countryCallingCode: '+298'
+    countryCallingCode: '+298',
   },
   {
     name: 'Ghana',
@@ -4286,15 +4281,15 @@ export const countries = [
     area: 238533,
     maps: {
       googleMaps: 'https://goo.gl/maps/Avy5RSmdsXFBaiXq8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192781'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192781',
     },
     population: 31072945,
     flags: {
       png: 'https://flagcdn.com/w320/gh.png',
-      svg: 'https://flagcdn.com/gh.svg'
+      svg: 'https://flagcdn.com/gh.svg',
     },
     emoji: '🇬🇭',
-    countryCallingCode: '+233'
+    countryCallingCode: '+233',
   },
   {
     name: 'Iraq',
@@ -4305,16 +4300,16 @@ export const countries = [
     area: 438317,
     maps: {
       googleMaps: 'https://goo.gl/maps/iL8Bmy1sUCW9fUk18',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/304934'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/304934',
     },
     population: 40222503,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/iq.png',
-      svg: 'https://flagcdn.com/iq.svg'
+      svg: 'https://flagcdn.com/iq.svg',
     },
     emoji: '🇮🇶',
-    countryCallingCode: '+964'
+    countryCallingCode: '+964',
   },
   {
     name: 'New Zealand',
@@ -4325,17 +4320,16 @@ export const countries = [
     area: 270467,
     maps: {
       googleMaps: 'https://goo.gl/maps/xXiDQo65dwdpw9iu8',
-      openStreetMaps:
-        'https://www.openstreetmap.org/relation/556706#map=5/-46.710/172.046'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/556706#map=5/-46.710/172.046',
     },
     population: 5084300,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/nz.png',
-      svg: 'https://flagcdn.com/nz.svg'
+      svg: 'https://flagcdn.com/nz.svg',
     },
     emoji: '🇳🇿',
-    countryCallingCode: '+64'
+    countryCallingCode: '+64',
   },
   {
     name: 'Serbia',
@@ -4346,38 +4340,38 @@ export const countries = [
     area: 88361,
     maps: {
       googleMaps: 'https://goo.gl/maps/2Aqof7aV2Naq8YEK8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1741311'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1741311',
     },
     population: 6908224,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/rs.png',
-      svg: 'https://flagcdn.com/rs.svg'
+      svg: 'https://flagcdn.com/rs.svg',
     },
     emoji: '🇷🇸',
-    countryCallingCode: '+381'
+    countryCallingCode: '+381',
   },
   {
     name: 'Bhutan',
     capital: 'Thimphu',
     currencies: [
       { name: 'Bhutanese ngultrum', symbol: 'Nu.' },
-      { name: 'Indian rupee', symbol: '₹' }
+      { name: 'Indian rupee', symbol: '₹' },
     ],
     languages: ['Dzongkha'],
     coordinates: [27.5, 90.5],
     area: 38394,
     maps: {
       googleMaps: 'https://goo.gl/maps/VEfXXBftTFLUpNgp8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/184629'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/184629',
     },
     population: 771612,
     flags: {
       png: 'https://flagcdn.com/w320/bt.png',
-      svg: 'https://flagcdn.com/bt.svg'
+      svg: 'https://flagcdn.com/bt.svg',
     },
     emoji: '🇧🇹',
-    countryCallingCode: '+975'
+    countryCallingCode: '+975',
   },
   {
     name: 'Romania',
@@ -4388,16 +4382,16 @@ export const countries = [
     area: 238391,
     maps: {
       googleMaps: 'https://goo.gl/maps/845hAgCf1mDkN3vr7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/90689'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/90689',
     },
     population: 19286123,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ro.png',
-      svg: 'https://flagcdn.com/ro.svg'
+      svg: 'https://flagcdn.com/ro.svg',
     },
     emoji: '🇷🇴',
-    countryCallingCode: '+40'
+    countryCallingCode: '+40',
   },
   {
     name: 'Afghanistan',
@@ -4408,15 +4402,15 @@ export const countries = [
     area: 652230,
     maps: {
       googleMaps: 'https://goo.gl/maps/BXBGw7yUUFknCfva9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/303427'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/303427',
     },
     population: 2837743,
     flags: {
       png: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png',
-      svg: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg'
+      svg: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg',
     },
     emoji: '🇦🇫',
-    countryCallingCode: '+93'
+    countryCallingCode: '+93',
   },
   {
     name: 'India',
@@ -4427,16 +4421,16 @@ export const countries = [
     area: 3287590,
     maps: {
       googleMaps: 'https://goo.gl/maps/WSk3fLwG4vtPQetp7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/304716'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/304716',
     },
     population: 1380004385,
     postalCode: { format: '######', regex: '^(\\d{6})$' },
     flags: {
       png: 'https://flagcdn.com/w320/in.png',
-      svg: 'https://flagcdn.com/in.svg'
+      svg: 'https://flagcdn.com/in.svg',
     },
     emoji: '🇮🇳',
-    countryCallingCode: '+91'
+    countryCallingCode: '+91',
   },
   {
     name: 'Denmark',
@@ -4447,43 +4441,43 @@ export const countries = [
     area: 43094,
     maps: {
       googleMaps: 'https://goo.gl/maps/UddGPN7hAyrtpFiT6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/50046'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/50046',
     },
     population: 5831404,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/dk.png',
-      svg: 'https://flagcdn.com/dk.svg'
+      svg: 'https://flagcdn.com/dk.svg',
     },
     emoji: '🇩🇰',
-    countryCallingCode: '+45'
+    countryCallingCode: '+45',
   },
   {
     name: 'Jersey',
     capital: 'Saint Helier',
     currencies: [
       { name: 'British pound', symbol: '£' },
-      { name: 'Jersey pound', symbol: '£' }
+      { name: 'Jersey pound', symbol: '£' },
     ],
     languages: ['English', 'French', 'Jèrriais'],
     coordinates: [49.25, -2.16666666],
     area: 116,
     maps: {
       googleMaps: 'https://goo.gl/maps/rXG8GZZtsqK92kTCA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/367988'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/367988',
     },
     population: 100800,
     postalCode: {
       format: '@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA',
       regex:
-        '^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$'
+        '^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$',
     },
     flags: {
       png: 'https://flagcdn.com/w320/je.png',
-      svg: 'https://flagcdn.com/je.svg'
+      svg: 'https://flagcdn.com/je.svg',
     },
     emoji: '🇯🇪',
-    countryCallingCode: '+44'
+    countryCallingCode: '+44',
   },
   {
     name: 'Saudi Arabia',
@@ -4494,16 +4488,16 @@ export const countries = [
     area: 2149690,
     maps: {
       googleMaps: 'https://goo.gl/maps/5PSjvdJ1AyaLFRrG9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/307584'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/307584',
     },
     population: 34813867,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/sa.png',
-      svg: 'https://flagcdn.com/sa.svg'
+      svg: 'https://flagcdn.com/sa.svg',
     },
     emoji: '🇸🇦',
-    countryCallingCode: '+966'
+    countryCallingCode: '+966',
   },
   {
     name: 'Saint Barthélemy',
@@ -4514,16 +4508,16 @@ export const countries = [
     area: 21,
     maps: {
       googleMaps: 'https://goo.gl/maps/Mc7GqH466S7AAk297',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/7552779'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/7552779',
     },
     population: 4255,
     postalCode: { format: '### ###' },
     flags: {
       png: 'https://flagcdn.com/w320/bl.png',
-      svg: 'https://flagcdn.com/bl.svg'
+      svg: 'https://flagcdn.com/bl.svg',
     },
     emoji: '🇧🇱',
-    countryCallingCode: '+590'
+    countryCallingCode: '+590',
   },
   {
     name: 'Guinea-Bissau',
@@ -4534,16 +4528,16 @@ export const countries = [
     area: 36125,
     maps: {
       googleMaps: 'https://goo.gl/maps/5Wyaz17miUc1zLc67',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192776'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192776',
     },
     population: 1967998,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/gw.png',
-      svg: 'https://flagcdn.com/gw.svg'
+      svg: 'https://flagcdn.com/gw.svg',
     },
     emoji: '',
-    countryCallingCode: '+245'
+    countryCallingCode: '+245',
   },
   {
     name: 'Norway',
@@ -4554,16 +4548,16 @@ export const countries = [
     area: 323802,
     maps: {
       googleMaps: 'https://goo.gl/maps/htWRrphA7vNgQNdSA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2978650'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2978650',
     },
     population: 5379475,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/no.png',
-      svg: 'https://flagcdn.com/no.svg'
+      svg: 'https://flagcdn.com/no.svg',
     },
     emoji: '🇳🇴',
-    countryCallingCode: '+47'
+    countryCallingCode: '+47',
   },
   {
     name: 'Monaco',
@@ -4574,16 +4568,16 @@ export const countries = [
     area: 2.02,
     maps: {
       googleMaps: 'https://goo.gl/maps/DGpndDot28bYdXYn7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1124039'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1124039',
     },
     population: 39244,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/mc.png',
-      svg: 'https://flagcdn.com/mc.svg'
+      svg: 'https://flagcdn.com/mc.svg',
     },
     emoji: '🇲🇨',
-    countryCallingCode: '+377'
+    countryCallingCode: '+377',
   },
   {
     name: 'Cocos (Keeling) Islands',
@@ -4594,15 +4588,15 @@ export const countries = [
     area: 14,
     maps: {
       googleMaps: 'https://goo.gl/maps/3eCdKVpVfMcZyKcK6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/82636'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/82636',
     },
     population: 544,
     flags: {
       png: 'https://flagcdn.com/w320/cc.png',
-      svg: 'https://flagcdn.com/cc.svg'
+      svg: 'https://flagcdn.com/cc.svg',
     },
     emoji: '🇨🇨',
-    countryCallingCode: '+61'
+    countryCallingCode: '+61',
   },
   {
     name: 'Egypt',
@@ -4613,16 +4607,16 @@ export const countries = [
     area: 1002450,
     maps: {
       googleMaps: 'https://goo.gl/maps/uoDRhXbsqjG6L7VG7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1473947'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1473947',
     },
     population: 102334403,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/eg.png',
-      svg: 'https://flagcdn.com/eg.svg'
+      svg: 'https://flagcdn.com/eg.svg',
     },
     emoji: '🇪🇬',
-    countryCallingCode: '+20'
+    countryCallingCode: '+20',
   },
   {
     name: 'Cyprus',
@@ -4633,16 +4627,16 @@ export const countries = [
     area: 9251,
     maps: {
       googleMaps: 'https://goo.gl/maps/77hPBRdLid8yD5Bm7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/307787'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/307787',
     },
     population: 1207361,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/cy.png',
-      svg: 'https://flagcdn.com/cy.svg'
+      svg: 'https://flagcdn.com/cy.svg',
     },
     emoji: '🇨🇾',
-    countryCallingCode: '+357'
+    countryCallingCode: '+357',
   },
   {
     name: 'Dominica',
@@ -4653,15 +4647,15 @@ export const countries = [
     area: 751,
     maps: {
       googleMaps: 'https://goo.gl/maps/HSKdHYpFC8oHHuyV7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/307823'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/307823',
     },
     population: 71991,
     flags: {
       png: 'https://flagcdn.com/w320/dm.png',
-      svg: 'https://flagcdn.com/dm.svg'
+      svg: 'https://flagcdn.com/dm.svg',
     },
     emoji: '🇩🇲',
-    countryCallingCode: '+1 767'
+    countryCallingCode: '+1 767',
   },
   {
     name: 'Azerbaijan',
@@ -4672,16 +4666,16 @@ export const countries = [
     area: 86600,
     maps: {
       googleMaps: 'https://goo.gl/maps/az3Zz7ar2aoB9AUc6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/364110'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/364110',
     },
     population: 10110116,
     postalCode: { format: 'AZ ####', regex: '^(?:AZ)*(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/az.png',
-      svg: 'https://flagcdn.com/az.svg'
+      svg: 'https://flagcdn.com/az.svg',
     },
     emoji: '🇦🇿',
-    countryCallingCode: '+994'
+    countryCallingCode: '+994',
   },
   {
     name: 'Zimbabwe',
@@ -4702,43 +4696,43 @@ export const countries = [
       'Tsonga',
       'Venda',
       'Xhosa',
-      'Zimbabwean Sign Language'
+      'Zimbabwean Sign Language',
     ],
     coordinates: [-20, 30],
     area: 390757,
     maps: {
       googleMaps: 'https://goo.gl/maps/M26BqdwQctqxXS65A',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/195272'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/195272',
     },
     population: 14862927,
     flags: {
       png: 'https://flagcdn.com/w320/zw.png',
-      svg: 'https://flagcdn.com/zw.svg'
+      svg: 'https://flagcdn.com/zw.svg',
     },
     emoji: '🇿🇼',
-    countryCallingCode: '+263'
+    countryCallingCode: '+263',
   },
   {
     name: 'Tuvalu',
     capital: 'Funafuti',
     currencies: [
       { name: 'Australian dollar', symbol: '$' },
-      { name: 'Tuvaluan dollar', symbol: '$' }
+      { name: 'Tuvaluan dollar', symbol: '$' },
     ],
     languages: ['English', 'Tuvaluan'],
     coordinates: [-8, 178],
     area: 26,
     maps: {
       googleMaps: 'https://goo.gl/maps/LbuUxtkgm1dfN1Pn6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2177266'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2177266',
     },
     population: 11792,
     flags: {
       png: 'https://flagcdn.com/w320/tv.png',
-      svg: 'https://flagcdn.com/tv.svg'
+      svg: 'https://flagcdn.com/tv.svg',
     },
     emoji: '🇹🇻',
-    countryCallingCode: '+688'
+    countryCallingCode: '+688',
   },
   {
     name: 'Mali',
@@ -4749,15 +4743,15 @@ export const countries = [
     area: 1240192,
     maps: {
       googleMaps: 'https://goo.gl/maps/u9mYJkCB19wyuzh27',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192785'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192785',
     },
     population: 20250834,
     flags: {
       png: 'https://flagcdn.com/w320/ml.png',
-      svg: 'https://flagcdn.com/ml.svg'
+      svg: 'https://flagcdn.com/ml.svg',
     },
     emoji: '🇲🇱',
-    countryCallingCode: '+223'
+    countryCallingCode: '+223',
   },
   {
     name: 'Mauritania',
@@ -4768,15 +4762,15 @@ export const countries = [
     area: 1030700,
     maps: {
       googleMaps: 'https://goo.gl/maps/im2MmQ5jFjzxWBks5',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192763'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192763',
     },
     population: 4649660,
     flags: {
       png: 'https://flagcdn.com/w320/mr.png',
-      svg: 'https://flagcdn.com/mr.svg'
+      svg: 'https://flagcdn.com/mr.svg',
     },
     emoji: '🇲🇷',
-    countryCallingCode: '+222'
+    countryCallingCode: '+222',
   },
   {
     name: 'Ukraine',
@@ -4787,16 +4781,16 @@ export const countries = [
     area: 603500,
     maps: {
       googleMaps: 'https://goo.gl/maps/DvgJMiPJ7aozKFZv7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/60199'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/60199',
     },
     population: 44134693,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ua.png',
-      svg: 'https://flagcdn.com/ua.svg'
+      svg: 'https://flagcdn.com/ua.svg',
     },
     emoji: '🇺🇦',
-    countryCallingCode: '+380'
+    countryCallingCode: '+380',
   },
   {
     name: 'Cameroon',
@@ -4807,15 +4801,15 @@ export const countries = [
     area: 475442,
     maps: {
       googleMaps: 'https://goo.gl/maps/JqiipHgFboG3rBJh9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192830'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192830',
     },
     population: 26545864,
     flags: {
       png: 'https://flagcdn.com/w320/cm.png',
-      svg: 'https://flagcdn.com/cm.svg'
+      svg: 'https://flagcdn.com/cm.svg',
     },
     emoji: '🇨🇲',
-    countryCallingCode: '+237'
+    countryCallingCode: '+237',
   },
   {
     name: 'Caribbean Netherlands',
@@ -4826,15 +4820,15 @@ export const countries = [
     area: 328,
     maps: {
       googleMaps: 'https://goo.gl/maps/4XVes1P6uEDTz77WA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/1216720'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/1216720',
     },
     population: 25987,
     flags: {
       png: 'https://flagcdn.com/w320/bq.png',
-      svg: 'https://flagcdn.com/bq.svg'
+      svg: 'https://flagcdn.com/bq.svg',
     },
     emoji: '',
-    countryCallingCode: '+599'
+    countryCallingCode: '+599',
   },
   {
     name: 'Micronesia',
@@ -4845,16 +4839,16 @@ export const countries = [
     area: 702,
     maps: {
       googleMaps: 'https://goo.gl/maps/LLcnofC5LxZsJXTo8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/571802'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/571802',
     },
     population: 115021,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/fm.png',
-      svg: 'https://flagcdn.com/fm.svg'
+      svg: 'https://flagcdn.com/fm.svg',
     },
     emoji: '',
-    countryCallingCode: '+691'
+    countryCallingCode: '+691',
   },
   {
     name: 'Mozambique',
@@ -4865,48 +4859,38 @@ export const countries = [
     area: 801590,
     maps: {
       googleMaps: 'https://goo.gl/maps/xCLcY9fzU6x4Pueu5',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/195273'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/195273',
     },
     population: 31255435,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/mz.png',
-      svg: 'https://flagcdn.com/mz.svg'
+      svg: 'https://flagcdn.com/mz.svg',
     },
     emoji: '🇲🇿',
-    countryCallingCode: '+258'
+    countryCallingCode: '+258',
   },
   {
     name: 'Namibia',
     capital: 'Windhoek',
     currencies: [
       { name: 'Namibian dollar', symbol: '$' },
-      { name: 'South African rand', symbol: 'R' }
+      { name: 'South African rand', symbol: 'R' },
     ],
-    languages: [
-      'Afrikaans',
-      'German',
-      'English',
-      'Herero',
-      'Khoekhoe',
-      'Kwangali',
-      'Lozi',
-      'Ndonga',
-      'Tswana'
-    ],
+    languages: ['Afrikaans', 'German', 'English', 'Herero', 'Khoekhoe', 'Kwangali', 'Lozi', 'Ndonga', 'Tswana'],
     coordinates: [-22, 17],
     area: 825615,
     maps: {
       googleMaps: 'https://goo.gl/maps/oR1i8BFEYX3EY83WA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/195266'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/195266',
     },
     population: 2540916,
     flags: {
       png: 'https://flagcdn.com/w320/na.png',
-      svg: 'https://flagcdn.com/na.svg'
+      svg: 'https://flagcdn.com/na.svg',
     },
     emoji: '🇳🇦',
-    countryCallingCode: '+264'
+    countryCallingCode: '+264',
   },
   {
     name: 'Gambia',
@@ -4917,37 +4901,37 @@ export const countries = [
     area: 10689,
     maps: {
       googleMaps: 'https://goo.gl/maps/bbGBCxxtfD2A9Z4m6',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192774'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/192774',
     },
     population: 2416664,
     flags: {
       png: 'https://flagcdn.com/w320/gm.png',
-      svg: 'https://flagcdn.com/gm.svg'
+      svg: 'https://flagcdn.com/gm.svg',
     },
     emoji: '🇬🇲',
-    countryCallingCode: '+220'
+    countryCallingCode: '+220',
   },
   {
     name: 'Cook Islands',
     capital: 'Avarua',
     currencies: [
       { name: 'Cook Islands dollar', symbol: '$' },
-      { name: 'New Zealand dollar', symbol: '$' }
+      { name: 'New Zealand dollar', symbol: '$' },
     ],
     languages: ['English', 'Cook Islands Māori'],
     coordinates: [-21.23333333, -159.76666666],
     area: 236,
     maps: {
       googleMaps: 'https://goo.gl/maps/nrGZrvWRGB4WHgDC9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/2184233'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/2184233',
     },
     population: 18100,
     flags: {
       png: 'https://flagcdn.com/w320/ck.png',
-      svg: 'https://flagcdn.com/ck.svg'
+      svg: 'https://flagcdn.com/ck.svg',
     },
     emoji: '🇨🇰',
-    countryCallingCode: '+682'
+    countryCallingCode: '+682',
   },
   {
     name: 'Cape Verde',
@@ -4958,16 +4942,16 @@ export const countries = [
     area: 4033,
     maps: {
       googleMaps: 'https://goo.gl/maps/Kc9vy5ChjuiAgMfXA',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/535774'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/535774',
     },
     population: 555988,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/cv.png',
-      svg: 'https://flagcdn.com/cv.svg'
+      svg: 'https://flagcdn.com/cv.svg',
     },
     emoji: '',
-    countryCallingCode: '+238'
+    countryCallingCode: '+238',
   },
   {
     name: 'Laos',
@@ -4978,16 +4962,16 @@ export const countries = [
     area: 236800,
     maps: {
       googleMaps: 'https://goo.gl/maps/F3asVB7sRKgSnwbE7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/49903'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/49903',
     },
     population: 7275556,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/la.png',
-      svg: 'https://flagcdn.com/la.svg'
+      svg: 'https://flagcdn.com/la.svg',
     },
     emoji: '',
-    countryCallingCode: '+856'
+    countryCallingCode: '+856',
   },
   {
     name: 'Austria',
@@ -4998,16 +4982,16 @@ export const countries = [
     area: 83871,
     maps: {
       googleMaps: 'https://goo.gl/maps/pCWpWQhznHyRzQcu9',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/16239'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/16239',
     },
     population: 8917205,
     postalCode: { format: '####', regex: '^(\\d{4})$' },
     flags: {
       png: 'https://flagcdn.com/w320/at.png',
-      svg: 'https://flagcdn.com/at.svg'
+      svg: 'https://flagcdn.com/at.svg',
     },
     emoji: '🇦🇹',
-    countryCallingCode: '+43'
+    countryCallingCode: '+43',
   },
   {
     name: 'Andorra',
@@ -5018,15 +5002,15 @@ export const countries = [
     area: 468,
     maps: {
       googleMaps: 'https://goo.gl/maps/JqAnacWE2qEznKgw7',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/9407'
+      openStreetMaps: 'https://www.openstreetmap.org/relation/9407',
     },
     population: 77265,
     postalCode: { format: 'AD###', regex: '^(?:AD)*(\\d{3})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ad.png',
-      svg: 'https://flagcdn.com/ad.svg'
+      svg: 'https://flagcdn.com/ad.svg',
     },
     emoji: '🇦🇩',
-    countryCallingCode: '+376'
-  }
+    countryCallingCode: '+376',
+  },
 ]
