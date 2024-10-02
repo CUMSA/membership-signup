@@ -24,11 +24,12 @@ export const handleSubmit = async (data: unknown) => {
       window.location.href = '/success'
     })
     .catch(e => {
-      const err = e as AxiosError
-      if (err.response.data.name == 'ConditionalCheckFailedException') {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const err = e as AxiosError<any, any>
+      if (err.response?.data?.name == 'ConditionalCheckFailedException') {
         throw new Error(`You have already registered as ${result.data.Crsid}.`)
       } else {
-        throw new Error('Server Err. ' + err.response.data)
+        throw new Error('Server error: ' + err.response ? err.response?.data : 'Please try again later.')
       }
     })
 }
