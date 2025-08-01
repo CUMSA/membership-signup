@@ -200,26 +200,6 @@ export const countries: string[] = [
 
 export const countriestmp = [
   {
-    name: 'Kenya',
-    capital: 'Nairobi',
-    area: 580367,
-    coordinates: [1, 38],
-    currencies: [{ name: 'Kenyan shilling', symbol: 'Sh' }],
-    languages: ['English', 'Swahili'],
-    maps: {
-      googleMaps: 'https://goo.gl/maps/Ni9M7wcCxf8bJHLX8',
-      openStreetMaps: 'https://www.openstreetmap.org/relation/192798',
-    },
-    postalCode: { format: '#####', regex: '^(\\d{5})$' },
-    flags: {
-      png: 'https://flagcdn.com/w320/ke.png',
-      svg: 'https://flagcdn.com/ke.svg',
-    },
-    population: 53771300,
-    emoji: '🇰🇪',
-    countryCallingCode: '+254',
-  },
-  {
     name: 'San Marino',
     capital: 'City of San Marino',
     currencies: [{ name: 'Euro', symbol: '€' }],
