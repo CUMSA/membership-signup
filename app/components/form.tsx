@@ -3,7 +3,7 @@ import { Datepicker } from 'flowbite-react'
 import { Label, Field, Switch } from '@headlessui/react'
 import { countries } from '../utils/countries'
 import { Select } from './select'
-import { colleges, genders, studentTypes } from '../schemas/formSchema'
+import { colleges, genders, studentTypes, courses } from '../schemas/formSchema'
 import { handleSubmit } from '../utils/handleSubmit'
 
 const datepickerTheme = {
@@ -102,6 +102,7 @@ export default function Form() {
   const [college, setCollege] = useState<string>('Please select')
   const [studentType, setStudentType] = useState<string>('Please select')
   const [hasScholarship, setHasScholarship] = useState<boolean>(false)
+  const [course, setCourse] = useState<string>('Please select')
 
   const [error, setError] = useState<string | null>(null)
 
@@ -140,6 +141,7 @@ export default function Form() {
             SingaporeanPR: pr,
             College: college,
             StudentType: studentType,
+            Course: studentType === 'Undergrad' ? course : formData.get('Course'),
             Scholarship: hasScholarship ? formData.get('Scholarship') : 'None',
             MatriculationYear: parseInt(formData.get('MatriculationYear') as string),
             GraduationYear: parseInt(formData.get('GraduationYear') as string),
@@ -219,7 +221,7 @@ export default function Form() {
           <Select title="Gender" options={genders} selected={gender} setSelected={setGender} />
           <Select
             title="Nationality"
-            options={countries.map(c => c.name)}
+            options={countries}
             selected={nationality}
             setSelected={setNationality}
           />
@@ -349,6 +351,8 @@ export default function Form() {
           <Select title="College" options={colleges} selected={college} setSelected={setCollege} />
           <Select title="Student Type" options={studentTypes} selected={studentType} setSelected={setStudentType} />
 
+
+          {((studentType === "Masters" || studentType === "PHD" || studentType === "Other") && 
           <div className="sm:col-span-2">
             <label htmlFor="Course" className="block text-sm font-semibold leading-6 text-gray-900">
               Course
@@ -365,7 +369,12 @@ export default function Form() {
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
-          </div>
+          </div>)}
+
+          {(studentType === "Undergrad" && 
+          <Select title="Course" options={courses} selected={course} setSelected={setCourse} />
+          )}
+
           <div className="sm:col-span-2">
             <label htmlFor="PrevSchool" className="block text-sm font-semibold leading-6 text-gray-900">
               What was your previous school?

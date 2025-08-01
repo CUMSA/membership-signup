@@ -34,6 +34,42 @@ export const colleges = [
   'Wolfson College',
 ]
 
+export const courses: string[] = [
+  "Anglo-Saxon, Norse, and Celtic, BA (Hons)",
+  "Archaeology, BA (Hons)",
+  "Architecture, BA (Hons) and MArch",
+  "Asian and Middle Eastern Studies, BA (Hons)",
+  "Chemical Engineering and Biotechnology, BA (Hons) and MEng",
+  "Classics, BA (Hons)",
+  "Computer Science, BA (Hons) and MEng",
+  "Design, BA (Hons) and MDes",
+  "Economics, BA (Hons)",
+  "Education, BA (Hons)",
+  "Engineering, BA (Hons) and MEng",
+  "English, BA (Hons)",
+  "Foundation Year, Pre-degree course",
+  "Geography, BA (Hons)",
+  "History and Modern Languages, BA (Hons)",
+  "History and Politics, BA (Hons)",
+  "History of Art, BA (Hons)",
+  "History, BA (Hons)",
+  "Human, Social, and Political Sciences, BA (Hons)",
+  "Land Economy, BA (Hons)",
+  "Law, BA (Hons)",
+  "Linguistics, BA (Hons)",
+  "Mathematics, BA (Hons) and MMath",
+  "Medicine (Graduate course), MB and BChir",
+  "Medicine, MB and BChir",
+  "Modern and Medieval Languages, BA (Hons)",
+  "Music, BA (Hons)",
+  "Natural Sciences, BA (Hons) and MSci",
+  "Philosophy, BA (Hons)",
+  "Psychological and Behavioural Sciences, BA (Hons)",
+  "Theology, Religion, and Philosophy of Religion, BA (Hons)",
+  "Veterinary Medicine, VetMB"
+];
+
+
 export const genders = ['Male', 'Female', 'Non-binary', 'Prefer not to say']
 export const studentTypes = ['Undergrad', 'Masters', 'PhD', 'Other']
 
