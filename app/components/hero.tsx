@@ -2,10 +2,10 @@ import Image from 'next/image'
 import bannerImage from '../images/banner.jpg'
 
 const links = [
-  { name: 'Our history', href: 'https://cumsa.org/about-us/history-and-aims/' },
+  { name: 'Our history', href: 'https://cumsa.org/about' },
   {
     name: 'Our initiatives',
-    href: 'https://cumsa.org/initiatives/overview-of-events/',
+    href: 'https://cumsa.org/about/events',
   },
 ]
 const stats = [
