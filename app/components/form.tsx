@@ -352,7 +352,7 @@ export default function Form() {
           <Select title="Student Type" options={studentTypes} selected={studentType} setSelected={setStudentType} />
 
 
-          {((studentType === "Masters" || studentType === "PHD" || studentType === "Other") && 
+          {((studentType === "Masters" || studentType === "PhD" || studentType === "Other") && 
           <div className="sm:col-span-2">
             <label htmlFor="Course" className="block text-sm font-semibold leading-6 text-gray-900">
               Course
