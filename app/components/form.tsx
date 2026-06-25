@@ -156,10 +156,14 @@ export default function Form() {
           }
         }}
       >
-        <p className="text-md font-medium leading-6 text-gray-600 mb-16">
-          Do note that membership registration is only available for Cambridge students with a CRSid (this is the front
-          part of your university email). After filling in this registration form, you will receive a separate email
+        <p className="text-md font-medium leading-6 text-gray-600 mb-6">
+          If you are not a member of the University of Cambridge, fill in the Crsid field with your personal email.
+          After filling in this registration form, you will receive a separate email
           with instructions on how to make payment to confirm your membership.
+        </p>
+        <p className="rounded-md bg-amber-50 p-4 text-sm font-medium leading-6 text-amber-800">
+          If you will soon be a member of the University of Cambridge, but have yet to receive your CRSid, please wait
+          till then.
         </p>
 
         <hr className="my-16 border-t border-gray-200" />
