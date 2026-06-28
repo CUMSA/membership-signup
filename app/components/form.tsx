@@ -505,6 +505,13 @@ export default function Form() {
             ))}
           </div>
         )}
+        <p className="mt-6 text-sm leading-6 text-gray-600">
+          If you encounter any problems, please contact the database officer at{' '}
+          <a href="mailto:database@cumsa.org" className="font-semibold text-indigo-600 underline hover:text-indigo-500">
+            database@cumsa.org
+          </a>
+          .
+        </p>
       </form>
     </div>
   )
