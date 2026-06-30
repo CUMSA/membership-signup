@@ -513,6 +513,17 @@ export default function Form() {
           .
         </p>
       </form>
+      <section className="mx-auto mt-16 max-w-xl border-t border-gray-200 pt-16">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">How do I claim my membership?</h2>
+        <p className="mt-6 text-sm leading-6">
+          <a
+            href="https://drive.google.com/file/d/11xD4mtBCpglnEmoIEPAWl-qN-H1Dcs41/view"
+            className="font-semibold text-indigo-600 underline hover:text-indigo-500"
+          >
+            Adding your CUMSA Membership to Apple/Google Pay
+          </a>
+        </p>
+      </section>
     </div>
   )
 }
