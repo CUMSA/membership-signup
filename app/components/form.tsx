@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Datepicker } from 'flowbite-react'
-import { Label, Field, Switch } from '@headlessui/react'
+import { Dialog, DialogPanel, DialogTitle, Label, Field, Switch } from '@headlessui/react'
 import { countries } from '../utils/countries'
 import { Select } from './select'
 import { colleges, genders, studentTypes, courses } from '../schemas/formSchema'
@@ -106,6 +106,12 @@ export default function Form() {
   const [course, setCourse] = useState<string>('Please select')
 
   const [error, setError] = useState<string | null>(null)
+  const [submitted, setSubmitted] = useState(false)
+
+  const closeConfirmation = () => {
+    setSubmitted(false)
+    window.location.href = '/success'
+  }
 
   let currMembershipCycle = new Date().getFullYear()
   const month = new Date().getMonth()
@@ -122,6 +128,34 @@ export default function Form() {
 
   return (
     <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 relative">
+      <Dialog open={submitted} onClose={closeConfirmation} className="relative z-50">
+        <div className="fixed inset-0 bg-gray-900/50" aria-hidden="true" />
+        <div className="fixed inset-0 flex items-center justify-center p-4">
+          <DialogPanel className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
+            <DialogTitle className="text-lg font-semibold text-gray-900">Membership registration received</DialogTitle>
+            <p className="mt-4 text-sm leading-6 text-gray-600">
+              You will receive an email on your cambridge email within the next 5-10 minutes.
+            </p>
+            <p className="mt-2 text-sm leading-6 text-gray-600">
+              Any issues, pleace contact{' '}
+              <a
+                href="mailto:database@cumsa.org"
+                className="font-semibold text-indigo-600 underline hover:text-indigo-500"
+              >
+                database@cumsa.org
+              </a>
+            </p>
+            <button
+              type="button"
+              data-autofocus
+              onClick={closeConfirmation}
+              className="mt-6 w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Continue
+            </button>
+          </DialogPanel>
+        </div>
+      </Dialog>
       <form
         action="#"
         method="POST"
@@ -151,6 +185,7 @@ export default function Form() {
 
           try {
             await handleSubmit(data)
+            setSubmitted(true)
           } catch (error) {
             setError((error as Error).message)
           }

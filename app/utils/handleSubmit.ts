@@ -20,9 +20,6 @@ export const handleSubmit = async (data: unknown) => {
         'Content-Type': 'application/json',
       },
     })
-    .then(() => {
-      window.location.href = '/success'
-    })
     .catch(e => {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const err = e as AxiosError<any, any>
