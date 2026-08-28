@@ -129,7 +129,7 @@ export default function Form() {
   ]
 
   return (
-    <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 relative">
+    <div className="isolate px-6 py-24 sm:py-32 lg:px-8 relative">
       <Dialog open={submitted} onClose={closeConfirmation} className="relative z-50">
         <div className="fixed inset-0 bg-gray-900/50" aria-hidden="true" />
         <div className="fixed inset-0 flex items-center justify-center p-4">
@@ -193,7 +193,7 @@ export default function Form() {
           }
         }}
       >
-        <p className="text-md font-medium leading-6 text-gray-600 mb-6">
+        <p className="text-md font-medium leading-6 text-muted-foreground mb-6">
           If you are not a member of the University of Cambridge, fill in the Crsid field with your personal email.
           After filling in this registration form, you will receive a separate email with instructions on how to make
           payment to confirm your membership.
@@ -204,11 +204,11 @@ export default function Form() {
         </p>
 
         <hr className="my-16 border-t border-gray-200" />
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-8">Personal particulars</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl my-8">Personal particulars</h2>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="FirstName" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="FirstName" className="block text-sm font-semibold leading-6 text-foreground">
               First name
             </label>
             <div className="mt-2.5">
@@ -223,7 +223,7 @@ export default function Form() {
             </div>
           </div>
           <div>
-            <label htmlFor="LastName" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="LastName" className="block text-sm font-semibold leading-6 text-foreground">
               Last name
             </label>
             <div className="mt-2.5">
@@ -239,7 +239,7 @@ export default function Form() {
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="DateofBirth" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="DateofBirth" className="block text-sm font-semibold leading-6 text-foreground">
               Date of birth
             </label>
             <div className="mt-2.5">
@@ -278,16 +278,20 @@ export default function Form() {
                 />
               </Switch>
             </div>
-            <Label className="text-sm leading-6 text-gray-600">I am a Singapore Permanent Resident (PR) .</Label>
+            <Label className="text-sm leading-6 text-muted-foreground">
+              I am a Singapore Permanent Resident (PR) .
+            </Label>
           </Field>
         </div>
         <hr className="my-16 border-t border-gray-200" />
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-8">Contact details</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl my-8">Contact details</h2>
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="Crsid" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="Crsid" className="block text-sm font-semibold leading-6 text-foreground">
               Cambridge CRSID
-              <p className="text-xs font-medium text-gray-500">This is the front part of your university email</p>
+              <p className="text-xs font-medium text-muted-foreground">
+                This is the front part of your university email
+              </p>
             </label>
             <div className="mt-2.5">
               <input
@@ -301,9 +305,9 @@ export default function Form() {
           </div>
 
           <div>
-            <label htmlFor="AltEmail" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="AltEmail" className="block text-sm font-semibold leading-6 text-foreground">
               Alternative Email Address
-              <p className="text-xs font-medium text-gray-500">Personal email address preferred</p>
+              <p className="text-xs font-medium text-muted-foreground">Personal email address preferred</p>
             </label>
             <div className="mt-2.5">
               <input
@@ -317,7 +321,7 @@ export default function Form() {
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="UKMobile" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="UKMobile" className="block text-sm font-semibold leading-6 text-foreground">
               UK Mobile Number
             </label>
             <div className="mt-2.5">
@@ -338,9 +342,9 @@ export default function Form() {
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="HomeMobile" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="HomeMobile" className="block text-sm font-semibold leading-6 text-foreground">
               Home Mobile Number
-              <p className="text-xs font-medium text-gray-500">Please include country code</p>
+              <p className="text-xs font-medium text-muted-foreground">Please include country code</p>
             </label>
             <div className="mt-2.5">
               <input
@@ -355,11 +359,11 @@ export default function Form() {
         </div>
 
         <hr className="my-16 border-t border-gray-200" />
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-8">College and Course</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl my-8">College and Course</h2>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="MatriculationYear" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="MatriculationYear" className="block text-sm font-semibold leading-6 text-foreground">
               Matriculation Year
             </label>
             <div className="mt-2.5">
@@ -373,7 +377,7 @@ export default function Form() {
             </div>
           </div>
           <div>
-            <label htmlFor="GraduationYear" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="GraduationYear" className="block text-sm font-semibold leading-6 text-foreground">
               Graduation Year
             </label>
             <div className="mt-2.5">
@@ -391,9 +395,9 @@ export default function Form() {
 
           {(studentType === 'Masters' || studentType === 'PhD' || studentType === 'Other') && (
             <div className="sm:col-span-2">
-              <label htmlFor="Course" className="block text-sm font-semibold leading-6 text-gray-900">
+              <label htmlFor="Course" className="block text-sm font-semibold leading-6 text-foreground">
                 Course
-                <p className="text-xs font-medium text-gray-500">
+                <p className="text-xs font-medium text-muted-foreground">
                   Specify your qualification + course name (e.g. MPhil Economics)
                 </p>
               </label>
@@ -414,9 +418,9 @@ export default function Form() {
           )}
 
           <div className="sm:col-span-2">
-            <label htmlFor="PrevSchool" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="PrevSchool" className="block text-sm font-semibold leading-6 text-foreground">
               What was your previous school?
-              <p className="text-xs font-medium text-gray-500">
+              <p className="text-xs font-medium text-muted-foreground">
                 Please include the name of your last attended school (e.g. your JC, Polytechnic, etc.)
               </p>
             </label>
@@ -444,11 +448,11 @@ export default function Form() {
                 />
               </Switch>
             </div>
-            <Label className="text-sm leading-6 text-gray-600">I am on a scholarship.</Label>
+            <Label className="text-sm leading-6 text-muted-foreground">I am on a scholarship.</Label>
           </Field>
           {hasScholarship && (
             <div className="sm:col-span-2">
-              <label htmlFor="Scholarship" className="block text-sm font-semibold leading-6 text-gray-900">
+              <label htmlFor="Scholarship" className="block text-sm font-semibold leading-6 text-foreground">
                 Scholarship Name
               </label>
               <div className="mt-2.5">
@@ -465,13 +469,13 @@ export default function Form() {
         </div>
 
         <hr className="my-16 border-t border-gray-200" />
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-8">Administrative</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl my-8">Administrative</h2>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div className="sm:col-span-2">
             <fieldset>
-              <legend className="text-sm font-semibold leading-6 text-gray-900">Membership Type</legend>
-              <p className="mt-1 text-sm leading-6 text-gray-600">
+              <legend className="text-sm font-semibold leading-6 text-foreground">Membership Type</legend>
+              <p className="mt-1 text-sm leading-6 text-muted-foreground">
                 1 year membership spans the academic year. Signing up for 1 year now means that membership starts in{' '}
                 <span className="font-semibold">Oct {currMembershipCycle} </span>
                 and ends in <span className="font-semibold">Sep {currMembershipCycle + 1}</span>.
@@ -489,7 +493,7 @@ export default function Form() {
                     />
                     <label
                       htmlFor={membershipTypes.id}
-                      className="ml-3 block text-sm font-medium leading-6 text-gray-900"
+                      className="ml-3 block text-sm font-medium leading-6 text-foreground"
                     >
                       {membershipTypes.title}
                     </label>
@@ -498,7 +502,7 @@ export default function Form() {
               </div>
             </fieldset>
           </div>
-          <p className="text-sm font-semibold leading-6 text-gray-600 sm:col-span-2">
+          <p className="text-sm font-semibold leading-6 text-muted-foreground sm:col-span-2">
             While CUMSA acknowledges the importance of data privacy, we may occasionally need to release our
             members&apos; details to our sponsors.
           </p>
@@ -516,7 +520,9 @@ export default function Form() {
                 />
               </Switch>
             </div>
-            <Label className="text-sm leading-6 text-gray-600">I have read and understood the above statement .</Label>
+            <Label className="text-sm leading-6 text-muted-foreground">
+              I have read and understood the above statement .
+            </Label>
           </Field>
         </div>
         <div className="mt-10">
@@ -537,20 +543,23 @@ export default function Form() {
             ))}
           </div>
         )}
-        <p className="mt-6 text-sm leading-6 text-gray-600">
+        <p className="mt-6 text-sm leading-6 text-muted-foreground">
           If you encounter any problems, please contact the database officer at{' '}
-          <a href="mailto:database@cumsa.org" className="font-semibold text-indigo-600 underline hover:text-indigo-500">
+          <a
+            href="mailto:database@cumsa.org"
+            className="font-semibold text-indigo-800 underline hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-indigo-200"
+          >
             database@cumsa.org
           </a>
           .
         </p>
       </form>
       <section className="mx-auto mt-16 max-w-xl border-t border-gray-200 pt-16">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">How do I claim my membership?</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">How do I claim my membership?</h2>
         <p className="mt-6 text-sm leading-6">
           <a
             href="https://drive.google.com/file/d/11xD4mtBCpglnEmoIEPAWl-qN-H1Dcs41/view"
-            className="font-semibold text-indigo-600 underline hover:text-indigo-500"
+            className="font-semibold text-indigo-800 underline hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-indigo-200"
           >
             Adding your CUMSA Membership to Apple/Google Pay
           </a>
