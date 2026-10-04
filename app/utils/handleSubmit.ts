@@ -1,4 +1,4 @@
-import { fromError } from 'zod-validation-error'
+import { createMessageBuilder, fromError } from 'zod-validation-error'
 import { formSchema } from '../schemas/formSchema'
 import axios, { AxiosError } from 'axios'
 
@@ -9,7 +9,7 @@ export const handleSubmit = async (data: unknown) => {
   if (!result.success) {
     throw new Error(
       fromError(result.error, {
-        issueSeparator: '\r\n',
+        messageBuilder: createMessageBuilder({ issueSeparator: '\r\n' }),
       }).toString(),
     )
   }
