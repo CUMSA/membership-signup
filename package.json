@@ -34,6 +34,11 @@
     "tailwindcss": "4.3.3",
     "typescript": "6.0.3"
   },
+  "overrides": {
+    "flowbite-react": {
+      "deepmerge-ts": "8.0.2"
+    }
+  },
   "prettier": {
     "printWidth": 120,
     "semi": false,
