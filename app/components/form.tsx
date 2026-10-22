@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { Datepicker } from 'flowbite-react'
 import { Dialog, DialogPanel, DialogTitle, Label, Field, Switch } from '@headlessui/react'
 import { countries } from '../utils/countries'
@@ -90,6 +91,7 @@ const datepickerTheme = {
 }
 
 export default function Form() {
+  const router = useRouter()
   const [agreed, setAgreed] = useState<boolean>(false)
   const [dateOfBirth, setDateOfBirth] = useState(() => new Date(2000, 0, 1))
 
@@ -110,7 +112,7 @@ export default function Form() {
 
   const closeConfirmation = () => {
     setSubmitted(false)
-    window.location.href = '/success'
+    router.push('/success')
   }
 
   let currMembershipCycle = new Date().getFullYear()
