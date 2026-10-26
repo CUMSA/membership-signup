@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { Datepicker } from 'flowbite-react'
 import { Dialog, DialogPanel, DialogTitle, Label, Field, Switch } from '@headlessui/react'
 import { countries } from '../utils/countries'
@@ -90,6 +91,7 @@ const datepickerTheme = {
 }
 
 export default function Form() {
+  const router = useRouter()
   const [agreed, setAgreed] = useState<boolean>(false)
   const [dateOfBirth, setDateOfBirth] = useState(() => new Date(2000, 0, 1))
 
@@ -110,7 +112,7 @@ export default function Form() {
 
   const closeConfirmation = () => {
     setSubmitted(false)
-    window.location.href = '/success'
+    router.push('/success')
   }
 
   let currMembershipCycle = new Date().getFullYear()
@@ -193,8 +195,8 @@ export default function Form() {
       >
         <p className="text-md font-medium leading-6 text-gray-600 mb-6">
           If you are not a member of the University of Cambridge, fill in the Crsid field with your personal email.
-          After filling in this registration form, you will receive a separate email
-          with instructions on how to make payment to confirm your membership.
+          After filling in this registration form, you will receive a separate email with instructions on how to make
+          payment to confirm your membership.
         </p>
         <p className="rounded-md bg-amber-50 p-4 text-sm font-medium leading-6 text-amber-800">
           If you will soon be a member of the University of Cambridge, but have yet to receive your CRSid, please wait
@@ -260,12 +262,7 @@ export default function Form() {
           </div>
 
           <Select title="Gender" options={genders} selected={gender} setSelected={setGender} />
-          <Select
-            title="Nationality"
-            options={countries}
-            selected={nationality}
-            setSelected={setNationality}
-          />
+          <Select title="Nationality" options={countries} selected={nationality} setSelected={setNationality} />
 
           <Field className="flex gap-x-4 sm:col-span-2">
             <div className="flex h-6 items-center">
@@ -392,28 +389,28 @@ export default function Form() {
           <Select title="College" options={colleges} selected={college} setSelected={setCollege} />
           <Select title="Student Type" options={studentTypes} selected={studentType} setSelected={setStudentType} />
 
-
-          {((studentType === "Masters" || studentType === "PhD" || studentType === "Other") && 
-          <div className="sm:col-span-2">
-            <label htmlFor="Course" className="block text-sm font-semibold leading-6 text-gray-900">
-              Course
-              <p className="text-xs font-medium text-gray-500">
-                Specify your qualification + course name (e.g. MPhil Economics)
-              </p>
-            </label>
-            <div className="mt-2.5">
-              <input
-                required
-                id="Course"
-                name="Course"
-                type="text"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              />
+          {(studentType === 'Masters' || studentType === 'PhD' || studentType === 'Other') && (
+            <div className="sm:col-span-2">
+              <label htmlFor="Course" className="block text-sm font-semibold leading-6 text-gray-900">
+                Course
+                <p className="text-xs font-medium text-gray-500">
+                  Specify your qualification + course name (e.g. MPhil Economics)
+                </p>
+              </label>
+              <div className="mt-2.5">
+                <input
+                  required
+                  id="Course"
+                  name="Course"
+                  type="text"
+                  className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                />
+              </div>
             </div>
-          </div>)}
+          )}
 
-          {(studentType === "Undergrad" && 
-          <Select title="Course" options={courses} selected={course} setSelected={setCourse} />
+          {studentType === 'Undergrad' && (
+            <Select title="Course" options={courses} selected={course} setSelected={setCourse} />
           )}
 
           <div className="sm:col-span-2">
