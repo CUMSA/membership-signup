@@ -9,9 +9,10 @@ const links = [
   },
 ]
 const stats = [
-  { name: 'Active members', value: '400+' },
+  { name: 'Active members', value: '500+' },
   { name: 'Courses', value: '40+' },
-  { name: 'Events per year', value: '10+' },
+  { name: 'Events per year', value: '10+', href: 'https://cumsa.org/events' },
+  { name: 'Partner discounts around Cambridge', value: '20+', href: 'https://cumsa.org/partners' },
 ]
 
 export default function Hero() {
@@ -61,8 +62,20 @@ export default function Hero() {
           </div>
           <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map(stat => (
-              <div key={stat.name} className="flex flex-col-reverse">
-                <dt className="text-base leading-7 text-gray-300">{stat.name}</dt>
+              <div key={stat.name} className="relative flex flex-col-reverse">
+                <dt className="text-base leading-7 text-gray-300">
+                  {stat.href ? (
+                    <a
+                      href={stat.href}
+                      aria-label={`${stat.value} ${stat.name}`}
+                      className="after:absolute after:inset-0 hover:underline"
+                    >
+                      {stat.name}
+                    </a>
+                  ) : (
+                    stat.name
+                  )}
+                </dt>
                 <dd className="text-2xl font-bold leading-9 tracking-tight text-white">{stat.value}</dd>
               </div>
             ))}

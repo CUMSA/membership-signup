@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Datepicker } from 'flowbite-react'
-import { Label, Field, Switch } from '@headlessui/react'
+import { Dialog, DialogPanel, DialogTitle, Label, Field, Switch } from '@headlessui/react'
 import { countries } from '../utils/countries'
 import { Select } from './select'
 import { colleges, genders, studentTypes, courses } from '../schemas/formSchema'
@@ -106,6 +106,12 @@ export default function Form() {
   const [course, setCourse] = useState<string>('Please select')
 
   const [error, setError] = useState<string | null>(null)
+  const [submitted, setSubmitted] = useState(false)
+
+  const closeConfirmation = () => {
+    setSubmitted(false)
+    window.location.href = '/success'
+  }
 
   let currMembershipCycle = new Date().getFullYear()
   const month = new Date().getMonth()
@@ -122,6 +128,34 @@ export default function Form() {
 
   return (
     <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 relative">
+      <Dialog open={submitted} onClose={closeConfirmation} className="relative z-50">
+        <div className="fixed inset-0 bg-gray-900/50" aria-hidden="true" />
+        <div className="fixed inset-0 flex items-center justify-center p-4">
+          <DialogPanel className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
+            <DialogTitle className="text-lg font-semibold text-gray-900">Membership registration received</DialogTitle>
+            <p className="mt-4 text-sm leading-6 text-gray-600">
+              You will receive an email on your cambridge email within the next 5-10 minutes.
+            </p>
+            <p className="mt-2 text-sm leading-6 text-gray-600">
+              Any issues, pleace contact{' '}
+              <a
+                href="mailto:database@cumsa.org"
+                className="font-semibold text-indigo-600 underline hover:text-indigo-500"
+              >
+                database@cumsa.org
+              </a>
+            </p>
+            <button
+              type="button"
+              data-autofocus
+              onClick={closeConfirmation}
+              className="mt-6 w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Continue
+            </button>
+          </DialogPanel>
+        </div>
+      </Dialog>
       <form
         action="#"
         method="POST"
@@ -151,15 +185,20 @@ export default function Form() {
 
           try {
             await handleSubmit(data)
+            setSubmitted(true)
           } catch (error) {
             setError((error as Error).message)
           }
         }}
       >
-        <p className="text-md font-medium leading-6 text-gray-600 mb-16">
-          Do note that membership registration is only available for Cambridge students with a CRSid (this is the front
-          part of your university email). After filling in this registration form, you will receive a separate email
+        <p className="text-md font-medium leading-6 text-gray-600 mb-6">
+          If you are not a member of the University of Cambridge, fill in the Crsid field with your personal email.
+          After filling in this registration form, you will receive a separate email
           with instructions on how to make payment to confirm your membership.
+        </p>
+        <p className="rounded-md bg-amber-50 p-4 text-sm font-medium leading-6 text-amber-800">
+          If you will soon be a member of the University of Cambridge, but have yet to receive your CRSid, please wait
+          till then.
         </p>
 
         <hr className="my-16 border-t border-gray-200" />
@@ -484,6 +523,9 @@ export default function Form() {
           </Field>
         </div>
         <div className="mt-10">
+          <p className="mb-6 rounded-md bg-amber-50 p-4 text-sm font-medium leading-6 text-amber-800">
+            Please review your details carefully. You can only submit once.
+          </p>
           <button
             type="submit"
             className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -498,7 +540,25 @@ export default function Form() {
             ))}
           </div>
         )}
+        <p className="mt-6 text-sm leading-6 text-gray-600">
+          If you encounter any problems, please contact the database officer at{' '}
+          <a href="mailto:database@cumsa.org" className="font-semibold text-indigo-600 underline hover:text-indigo-500">
+            database@cumsa.org
+          </a>
+          .
+        </p>
       </form>
+      <section className="mx-auto mt-16 max-w-xl border-t border-gray-200 pt-16">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">How do I claim my membership?</h2>
+        <p className="mt-6 text-sm leading-6">
+          <a
+            href="https://drive.google.com/file/d/11xD4mtBCpglnEmoIEPAWl-qN-H1Dcs41/view"
+            className="font-semibold text-indigo-600 underline hover:text-indigo-500"
+          >
+            Adding your CUMSA Membership to Apple/Google Pay
+          </a>
+        </p>
+      </section>
     </div>
   )
 }
