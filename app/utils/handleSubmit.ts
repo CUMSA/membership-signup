@@ -1,4 +1,4 @@
-import { fromError } from 'zod-validation-error'
+import { createMessageBuilder, fromError } from 'zod-validation-error'
 import { formSchema } from '../schemas/formSchema'
 import axios, { AxiosError } from 'axios'
 
@@ -9,7 +9,7 @@ export const handleSubmit = async (data: unknown) => {
   if (!result.success) {
     throw new Error(
       fromError(result.error, {
-        issueSeparator: '\r\n',
+        messageBuilder: createMessageBuilder({ issueSeparator: '\r\n' }),
       }).toString(),
     )
   }
@@ -19,9 +19,6 @@ export const handleSubmit = async (data: unknown) => {
       headers: {
         'Content-Type': 'application/json',
       },
-    })
-    .then(() => {
-      window.location.href = '/success'
     })
     .catch(e => {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -33,4 +30,3 @@ export const handleSubmit = async (data: unknown) => {
       }
     })
 }
- 

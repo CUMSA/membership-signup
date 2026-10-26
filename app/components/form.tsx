@@ -1,6 +1,7 @@
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { Datepicker } from 'flowbite-react'
-import { Label, Field, Switch } from '@headlessui/react'
+import { Dialog, DialogPanel, DialogTitle, Label, Field, Switch } from '@headlessui/react'
 import { countries } from '../utils/countries'
 import { Select } from './select'
 import { colleges, genders, studentTypes, courses } from '../schemas/formSchema'
@@ -22,7 +23,7 @@ const datepickerTheme = {
       selectors: {
         base: 'mb-2 flex justify-between',
         button: {
-          base: 'rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 ',
+          base: 'rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus:outline-hidden focus:ring-2 focus:ring-gray-200 ',
           prev: '',
           next: '',
           view: '',
@@ -90,7 +91,9 @@ const datepickerTheme = {
 }
 
 export default function Form() {
+  const router = useRouter()
   const [agreed, setAgreed] = useState<boolean>(false)
+  const [dateOfBirth, setDateOfBirth] = useState(() => new Date(2000, 0, 1))
 
   const [gender, setGender] = useState<string>('Please select')
 
@@ -105,6 +108,12 @@ export default function Form() {
   const [course, setCourse] = useState<string>('Please select')
 
   const [error, setError] = useState<string | null>(null)
+  const [submitted, setSubmitted] = useState(false)
+
+  const closeConfirmation = () => {
+    setSubmitted(false)
+    router.push('/success')
+  }
 
   let currMembershipCycle = new Date().getFullYear()
   const month = new Date().getMonth()
@@ -120,7 +129,35 @@ export default function Form() {
   ]
 
   return (
-    <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 relative">
+    <div className="isolate px-6 py-24 sm:py-32 lg:px-8 relative">
+      <Dialog open={submitted} onClose={closeConfirmation} className="relative z-50">
+        <div className="fixed inset-0 bg-gray-900/50" aria-hidden="true" />
+        <div className="fixed inset-0 flex items-center justify-center p-4">
+          <DialogPanel className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
+            <DialogTitle className="text-lg font-semibold text-gray-900">Membership registration received</DialogTitle>
+            <p className="mt-4 text-sm leading-6 text-gray-600">
+              You will receive an email on your cambridge email within the next 5-10 minutes.
+            </p>
+            <p className="mt-2 text-sm leading-6 text-gray-600">
+              Any issues, pleace contact{' '}
+              <a
+                href="mailto:database@cumsa.org"
+                className="font-semibold text-indigo-600 underline hover:text-indigo-500"
+              >
+                database@cumsa.org
+              </a>
+            </p>
+            <button
+              type="button"
+              data-autofocus
+              onClick={closeConfirmation}
+              className="mt-6 w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Continue
+            </button>
+          </DialogPanel>
+        </div>
+      </Dialog>
       <form
         action="#"
         method="POST"
@@ -150,23 +187,28 @@ export default function Form() {
 
           try {
             await handleSubmit(data)
+            setSubmitted(true)
           } catch (error) {
             setError((error as Error).message)
           }
         }}
       >
-        <p className="text-md font-medium leading-6 text-gray-600 mb-16">
-          Do note that membership registration is only available for Cambridge students with a CRSid (this is the front
-          part of your university email). After filling in this registration form, you will receive a separate email
-          with instructions on how to make payment to confirm your membership.
+        <p className="text-md font-medium leading-6 text-muted-foreground mb-6">
+          If you are not a member of the University of Cambridge, fill in the Crsid field with your personal email.
+          After filling in this registration form, you will receive a separate email with instructions on how to make
+          payment to confirm your membership.
+        </p>
+        <p className="rounded-md bg-amber-50 p-4 text-sm font-medium leading-6 text-amber-800">
+          If you will soon be a member of the University of Cambridge, but have yet to receive your CRSid, please wait
+          till then.
         </p>
 
         <hr className="my-16 border-t border-gray-200" />
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-8">Personal particulars</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl my-8">Personal particulars</h2>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="FirstName" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="FirstName" className="block text-sm font-semibold leading-6 text-foreground">
               First name
             </label>
             <div className="mt-2.5">
@@ -176,12 +218,12 @@ export default function Form() {
                 name="FirstName"
                 type="text"
                 autoComplete="given-name"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
           <div>
-            <label htmlFor="LastName" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="LastName" className="block text-sm font-semibold leading-6 text-foreground">
               Last name
             </label>
             <div className="mt-2.5">
@@ -191,13 +233,13 @@ export default function Form() {
                 name="LastName"
                 type="text"
                 autoComplete="family-name"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="DateofBirth" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="DateofBirth" className="block text-sm font-semibold leading-6 text-foreground">
               Date of birth
             </label>
             <div className="mt-2.5">
@@ -213,18 +255,14 @@ export default function Form() {
                     new Date().getDate(),
                   )
                 }
-                defaultDate={new Date(2000, 0, 1)}
+                value={dateOfBirth}
+                onChange={date => setDateOfBirth(date ?? new Date(2000, 0, 1))}
               />
             </div>
           </div>
 
           <Select title="Gender" options={genders} selected={gender} setSelected={setGender} />
-          <Select
-            title="Nationality"
-            options={countries}
-            selected={nationality}
-            setSelected={setNationality}
-          />
+          <Select title="Nationality" options={countries} selected={nationality} setSelected={setNationality} />
 
           <Field className="flex gap-x-4 sm:col-span-2">
             <div className="flex h-6 items-center">
@@ -236,20 +274,24 @@ export default function Form() {
                 <span className="sr-only">Singapore PR</span>
                 <span
                   aria-hidden="true"
-                  className="h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out group-data-[checked]:translate-x-3.5"
+                  className="h-4 w-4 transform rounded-full bg-white shadow-xs ring-1 ring-gray-900/5 transition duration-200 ease-in-out group-data-[checked]:translate-x-3.5"
                 />
               </Switch>
             </div>
-            <Label className="text-sm leading-6 text-gray-600">I am a Singapore Permanent Resident (PR) .</Label>
+            <Label className="text-sm leading-6 text-muted-foreground">
+              I am a Singapore Permanent Resident (PR) .
+            </Label>
           </Field>
         </div>
         <hr className="my-16 border-t border-gray-200" />
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-8">Contact details</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl my-8">Contact details</h2>
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="Crsid" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="Crsid" className="block text-sm font-semibold leading-6 text-foreground">
               Cambridge CRSID
-              <p className="text-xs font-medium text-gray-500">This is the front part of your university email</p>
+              <p className="text-xs font-medium text-muted-foreground">
+                This is the front part of your university email
+              </p>
             </label>
             <div className="mt-2.5">
               <input
@@ -257,15 +299,15 @@ export default function Form() {
                 id="Crsid"
                 name="Crsid"
                 placeholder="abc123"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
 
           <div>
-            <label htmlFor="AltEmail" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="AltEmail" className="block text-sm font-semibold leading-6 text-foreground">
               Alternative Email Address
-              <p className="text-xs font-medium text-gray-500">Personal email address preferred</p>
+              <p className="text-xs font-medium text-muted-foreground">Personal email address preferred</p>
             </label>
             <div className="mt-2.5">
               <input
@@ -273,13 +315,13 @@ export default function Form() {
                 id="AltEmail"
                 name="AltEmail"
                 placeholder="alanturing@gmail.com"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="UKMobile" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="UKMobile" className="block text-sm font-semibold leading-6 text-foreground">
               UK Mobile Number
             </label>
             <div className="mt-2.5">
@@ -294,15 +336,15 @@ export default function Form() {
                     setUKMobile(e.target.value)
                   }
                 }}
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="HomeMobile" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="HomeMobile" className="block text-sm font-semibold leading-6 text-foreground">
               Home Mobile Number
-              <p className="text-xs font-medium text-gray-500">Please include country code</p>
+              <p className="text-xs font-medium text-muted-foreground">Please include country code</p>
             </label>
             <div className="mt-2.5">
               <input
@@ -310,18 +352,18 @@ export default function Form() {
                 id="HomeMobile"
                 name="HomeMobile"
                 placeholder="+65 1234 5678"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
         </div>
 
         <hr className="my-16 border-t border-gray-200" />
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-8">College and Course</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl my-8">College and Course</h2>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="MatriculationYear" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="MatriculationYear" className="block text-sm font-semibold leading-6 text-foreground">
               Matriculation Year
             </label>
             <div className="mt-2.5">
@@ -330,12 +372,12 @@ export default function Form() {
                 id="MatriculationYear"
                 name="MatriculationYear"
                 type="number"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
           <div>
-            <label htmlFor="GraduationYear" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="GraduationYear" className="block text-sm font-semibold leading-6 text-foreground">
               Graduation Year
             </label>
             <div className="mt-2.5">
@@ -344,41 +386,41 @@ export default function Form() {
                 id="GraduationYear"
                 name="GraduationYear"
                 type="number"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
           <Select title="College" options={colleges} selected={college} setSelected={setCollege} />
           <Select title="Student Type" options={studentTypes} selected={studentType} setSelected={setStudentType} />
 
-
-          {((studentType === "Masters" || studentType === "PhD" || studentType === "Other") && 
-          <div className="sm:col-span-2">
-            <label htmlFor="Course" className="block text-sm font-semibold leading-6 text-gray-900">
-              Course
-              <p className="text-xs font-medium text-gray-500">
-                Specify your qualification + course name (e.g. MPhil Economics)
-              </p>
-            </label>
-            <div className="mt-2.5">
-              <input
-                required
-                id="Course"
-                name="Course"
-                type="text"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              />
+          {(studentType === 'Masters' || studentType === 'PhD' || studentType === 'Other') && (
+            <div className="sm:col-span-2">
+              <label htmlFor="Course" className="block text-sm font-semibold leading-6 text-foreground">
+                Course
+                <p className="text-xs font-medium text-muted-foreground">
+                  Specify your qualification + course name (e.g. MPhil Economics)
+                </p>
+              </label>
+              <div className="mt-2.5">
+                <input
+                  required
+                  id="Course"
+                  name="Course"
+                  type="text"
+                  className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                />
+              </div>
             </div>
-          </div>)}
+          )}
 
-          {(studentType === "Undergrad" && 
-          <Select title="Course" options={courses} selected={course} setSelected={setCourse} />
+          {studentType === 'Undergrad' && (
+            <Select title="Course" options={courses} selected={course} setSelected={setCourse} />
           )}
 
           <div className="sm:col-span-2">
-            <label htmlFor="PrevSchool" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="PrevSchool" className="block text-sm font-semibold leading-6 text-foreground">
               What was your previous school?
-              <p className="text-xs font-medium text-gray-500">
+              <p className="text-xs font-medium text-muted-foreground">
                 Please include the name of your last attended school (e.g. your JC, Polytechnic, etc.)
               </p>
             </label>
@@ -388,7 +430,7 @@ export default function Form() {
                 id="PrevSchool"
                 name="PrevSchool"
                 type="text"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -402,15 +444,15 @@ export default function Form() {
                 <span className="sr-only">Scholarship</span>
                 <span
                   aria-hidden="true"
-                  className="h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out group-data-[checked]:translate-x-3.5"
+                  className="h-4 w-4 transform rounded-full bg-white shadow-xs ring-1 ring-gray-900/5 transition duration-200 ease-in-out group-data-[checked]:translate-x-3.5"
                 />
               </Switch>
             </div>
-            <Label className="text-sm leading-6 text-gray-600">I am on a scholarship.</Label>
+            <Label className="text-sm leading-6 text-muted-foreground">I am on a scholarship.</Label>
           </Field>
           {hasScholarship && (
             <div className="sm:col-span-2">
-              <label htmlFor="Scholarship" className="block text-sm font-semibold leading-6 text-gray-900">
+              <label htmlFor="Scholarship" className="block text-sm font-semibold leading-6 text-foreground">
                 Scholarship Name
               </label>
               <div className="mt-2.5">
@@ -419,7 +461,7 @@ export default function Form() {
                   id="Scholarship"
                   name="Scholarship"
                   type="text"
-                  className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -427,13 +469,13 @@ export default function Form() {
         </div>
 
         <hr className="my-16 border-t border-gray-200" />
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl my-8">Administrative</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl my-8">Administrative</h2>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div className="sm:col-span-2">
             <fieldset>
-              <legend className="text-sm font-semibold leading-6 text-gray-900">Membership Type</legend>
-              <p className="mt-1 text-sm leading-6 text-gray-600">
+              <legend className="text-sm font-semibold leading-6 text-foreground">Membership Type</legend>
+              <p className="mt-1 text-sm leading-6 text-muted-foreground">
                 1 year membership spans the academic year. Signing up for 1 year now means that membership starts in{' '}
                 <span className="font-semibold">Oct {currMembershipCycle} </span>
                 and ends in <span className="font-semibold">Sep {currMembershipCycle + 1}</span>.
@@ -451,7 +493,7 @@ export default function Form() {
                     />
                     <label
                       htmlFor={membershipTypes.id}
-                      className="ml-3 block text-sm font-medium leading-6 text-gray-900"
+                      className="ml-3 block text-sm font-medium leading-6 text-foreground"
                     >
                       {membershipTypes.title}
                     </label>
@@ -460,7 +502,7 @@ export default function Form() {
               </div>
             </fieldset>
           </div>
-          <p className="text-sm font-semibold leading-6 text-gray-600 sm:col-span-2">
+          <p className="text-sm font-semibold leading-6 text-muted-foreground sm:col-span-2">
             While CUMSA acknowledges the importance of data privacy, we may occasionally need to release our
             members&apos; details to our sponsors.
           </p>
@@ -474,17 +516,22 @@ export default function Form() {
                 <span className="sr-only">Agree to policies</span>
                 <span
                   aria-hidden="true"
-                  className="h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out group-data-[checked]:translate-x-3.5"
+                  className="h-4 w-4 transform rounded-full bg-white shadow-xs ring-1 ring-gray-900/5 transition duration-200 ease-in-out group-data-[checked]:translate-x-3.5"
                 />
               </Switch>
             </div>
-            <Label className="text-sm leading-6 text-gray-600">I have read and understood the above statement .</Label>
+            <Label className="text-sm leading-6 text-muted-foreground">
+              I have read and understood the above statement .
+            </Label>
           </Field>
         </div>
         <div className="mt-10">
+          <p className="mb-6 rounded-md bg-amber-50 p-4 text-sm font-medium leading-6 text-amber-800">
+            Please review your details carefully. You can only submit once.
+          </p>
           <button
             type="submit"
-            className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Join CUMSA
           </button>
@@ -496,7 +543,28 @@ export default function Form() {
             ))}
           </div>
         )}
+        <p className="mt-6 text-sm leading-6 text-muted-foreground">
+          If you encounter any problems, please contact the database officer at{' '}
+          <a
+            href="mailto:database@cumsa.org"
+            className="font-semibold text-indigo-800 underline hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-indigo-200"
+          >
+            database@cumsa.org
+          </a>
+          .
+        </p>
       </form>
+      <section className="mx-auto mt-16 max-w-xl border-t border-gray-200 pt-16">
+        <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">How do I claim my membership?</h2>
+        <p className="mt-6 text-sm leading-6">
+          <a
+            href="https://drive.google.com/file/d/11xD4mtBCpglnEmoIEPAWl-qN-H1Dcs41/view"
+            className="font-semibold text-indigo-800 underline hover:text-indigo-900 dark:text-indigo-300 dark:hover:text-indigo-200"
+          >
+            Adding your CUMSA Membership to Apple/Google Pay
+          </a>
+        </p>
+      </section>
     </div>
   )
 }
